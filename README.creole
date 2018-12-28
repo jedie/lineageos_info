@@ -11,5 +11,32 @@ Filter rules are:
 The base data is the official Wiki: https://wiki.lineageos.org/devices/
 We use https://github.com/LineageOS/lineage_wiki/ as git submodules and read the files from [[https://github.com/LineageOS/lineage_wiki/tree/master/_data/devices|/_data/devices/]]
 
+== results
+
 Current result csv is: [[https://github.com/jedie/lineageos_info/blob/master/device_info.csv|device_info.csv]]
 A list of skipped device is: [[https://github.com/jedie/lineageos_info/blob/master/device_info.log|device_info.log]]
+
+== tryout
+
+Clone and create virtualenv:
+{{{
+~$ git clone --recursive https://github.com/jedie/lineageos_info.git
+~$ cd lineageos_info/
+~/lineageos_info$ git submodule update --init --recursive
+~/lineageos_info$ ./create_env.sh
+}}}
+
+Generate device info:
+{{{
+# go into project directory:
+~$ cd lineageos_info/
+
+# activate virtualenv:
+~/lineageos_info$ source .virtualenv/bin/activate
+
+# Update git repro and submodules:
+~/lineageos_info$ ./git_update.sh
+
+# generate new csv file:
+(.virtualenv) ~/lineageos_info$ python3 lineageos_info.py
+}}}
