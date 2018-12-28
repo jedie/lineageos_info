@@ -2,6 +2,7 @@
 
 # https://github.com/LineageOS/lineage_wiki.git
 import csv
+import datetime
 import logging
 import re
 from pathlib import Path
@@ -17,8 +18,6 @@ log.addHandler(logging.FileHandler("device_info.log", mode="w", encoding="UTF-8"
 
 
 INFO_TEMPLATE = """{vendor} {name} - https://wiki.lineageos.org/devices/{codename}"""
-
-devices_path = Path("lineage_wiki/_data/devices")
 
 
 class CsvGenerator:
@@ -64,49 +63,65 @@ class CsvGenerator:
         self.csv_writer.writerow(row)
 
 
-with Path("device_info.csv").open("w") as csv_file:
-    csv_generator = CsvGenerator(csv_file=csv_file)
+def generate_csv(*, csv_file_path, wiki_devices_path):
+    assert isinstance(csv_file_path, Path)
+    assert isinstance(wiki_devices_path, Path)
 
-    for item in devices_path.iterdir():
-        # print(item)
+    print("Read WIKI divice files from: %s" % wiki_devices_path)
+    assert wiki_devices_path.is_dir(), "ERROR: Path not found: %s" % wiki_devices_path
 
-        with item.open("r", encoding="utf-8") as ymlfile:
-            device = load(ymlfile, Loader=Loader)
+    csv_file_path = csv_file_path.resolve()
 
-        short_name = "{vendor_short} {name}".format(**device)
+    print("Generate: %s" % csv_file_path)
+    log.info("Generate csv on %s+0000", datetime.datetime.utcnow())
 
-        maintainers = device["maintainers"]
-        if not maintainers:
-            log.debug("Skip %r: no maintainers.", short_name)
-            continue
+    with csv_file_path.open("w") as csv_file:
+        csv_generator = CsvGenerator(csv_file=csv_file)
 
-        versions = device["versions"]
-        if not 15.1 in versions:
-            log.debug("Skip %r: only: %r", short_name, versions)
-            continue
+        for item in wiki_devices_path.iterdir():
+            # print(item)
 
-        ram = device["ram"]
-        if ram in ("1 GB", "2 GB"):
-            log.debug("Skip %r: RAM only: %r", short_name, ram)
-            continue
+            with item.open("r", encoding="utf-8") as ymlfile:
+                device = load(ymlfile, Loader=Loader)
 
-        storage = device["storage"]
-        if storage in ("8 GB", "16 GB"):
-            log.debug("Skip %r: Storage only: %r", short_name, storage)
-            continue
+            short_name = "{vendor_short} {name}".format(**device)
 
-        screen = device["screen"]
-        if screen:
-            try:
-                inches = re.findall(".*?([\d\.]+) in.*?", screen)[0]
-            except IndexError:
-                pass
-            else:
-                device["screen"] = inches
+            maintainers = device["maintainers"]
+            if not maintainers:
+                log.info("Skip %r: no maintainers.", short_name)
+                continue
 
-        print(INFO_TEMPLATE.format(**device))
-        csv_generator.add_device(device)
+            versions = device["versions"]
+            if not 15.1 in versions:
+                log.info("Skip %r: only: %r", short_name, versions)
+                continue
 
-        # pprint(device)
+            ram = device["ram"]
+            if ram in ("1 GB", "2 GB"):
+                log.info("Skip %r: RAM only: %r", short_name, ram)
+                continue
 
-        # break
+            storage = device["storage"]
+            if storage in ("8 GB", "16 GB"):
+                log.info("Skip %r: Storage only: %r", short_name, storage)
+                continue
+
+            screen = device["screen"]
+            if screen:
+                try:
+                    inches = re.findall(".*?([\d\.]+) in.*?", screen)[0]
+                except IndexError:
+                    pass
+                else:
+                    device["screen"] = inches
+
+            print(INFO_TEMPLATE.format(**device))
+            csv_generator.add_device(device)
+
+            # pprint(device)
+
+    print("\n *** File generated: %s ***\n" % csv_file_path)
+
+
+if __name__ == "__main__":
+    generate_csv(csv_file_path=Path("device_info.csv"), wiki_devices_path=Path("lineage_wiki/_data/devices"))
