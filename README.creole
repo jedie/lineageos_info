@@ -1,4 +1,4 @@
-# LineageOS info
+= LineageOS info
 
 Goal of this project: A good overview of all supported LineageOS devices.
 
@@ -9,7 +9,7 @@ Filter rules are:
 * Has more than 2GB RAM and more than 16 GB storage space
 
 The base data is the official Wiki: https://wiki.lineageos.org/devices/
-We use https://github.com/LineageOS/lineage_wiki/ as git submodules and read the files: https://github.com/LineageOS/lineage_wiki/tree/master/_data/devices
+We use https://github.com/LineageOS/lineage_wiki/ as git submodules and read the files from [[https://github.com/LineageOS/lineage_wiki/tree/master/_data/devices|/_data/devices/]]
 
-Current result csv is: https://github.com/jedie/lineageos_info/blob/master/device_info.csv
-A list of skipped device is: https://github.com/jedie/lineageos_info/blob/master/device_info.log
+Current result csv is: [[https://github.com/jedie/lineageos_info/blob/master/device_info.csv|device_info.csv]]
+A list of skipped device is: [[https://github.com/jedie/lineageos_info/blob/master/device_info.log|device_info.log]]
