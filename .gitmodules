@@ -1,0 +1,4 @@
+[submodule "lineage_wiki"]
+	path = lineage_wiki
+	url = https://github.com/LineageOS/lineage_wiki.git
+	branch = master
