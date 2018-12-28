@@ -1,4 +1,4 @@
-= LineageOS info
+= LineageOS supported devices info
 
 Goal of this project: A good overview of all supported LineageOS devices.
 
