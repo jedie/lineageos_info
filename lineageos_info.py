@@ -23,6 +23,7 @@ INFO_TEMPLATE = """{vendor} {name} - https://wiki.lineageos.org/devices/{codenam
 class CsvGenerator:
     HEADER_VENDOR = "vendor"
     HEADER_NAME = "name"
+    HEADER_MAINTAINERS = "maintainers"
     HEADER_RELEASE = "release"
     HEADER_SCREEN = "screen"
     HEADER_MODELS = "models"
@@ -39,6 +40,7 @@ class CsvGenerator:
         fieldnames = [
             self.HEADER_VENDOR,
             self.HEADER_NAME,
+            self.HEADER_MAINTAINERS,
             self.HEADER_RELEASE,
             self.HEADER_SCREEN,
             self.HEADER_MODELS,
@@ -56,6 +58,7 @@ class CsvGenerator:
         row = {
             self.HEADER_VENDOR: device["vendor_short"],
             self.HEADER_NAME: device["name"],
+            self.HEADER_MAINTAINERS: len(device["maintainers"]),
             self.HEADER_RELEASE: device["release"],
             self.HEADER_SCREEN: device["screen"],
             self.HEADER_MODELS: ",".join([x for x in device.get("models", "")]),
