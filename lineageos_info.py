@@ -28,6 +28,8 @@ class CsvGenerator:
     HEADER_MODELS = "models"
     HEADER_RAM = "RAM"
     HEADER_STORAGE = "storage"
+    HEADER_SOC = "SOC"
+
     HEADER_WIKI_LINK = "Wiki Link"
 
     def __init__(self, *, csv_file):
@@ -42,6 +44,7 @@ class CsvGenerator:
             self.HEADER_MODELS,
             self.HEADER_RAM,
             self.HEADER_STORAGE,
+            self.HEADER_SOC,
             self.HEADER_WIKI_LINK,
         ]
 
@@ -58,6 +61,7 @@ class CsvGenerator:
             self.HEADER_MODELS: ",".join([x for x in device.get("models", "")]),
             self.HEADER_RAM: device["ram"],
             self.HEADER_STORAGE: device["storage"],
+            self.HEADER_SOC: device["soc"],
             self.HEADER_WIKI_LINK: "https://wiki.lineageos.org/devices/%s" % device["codename"],
         }
         self.csv_writer.writerow(row)
