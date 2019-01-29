@@ -1,6 +1,20 @@
 #!/usr/bin/env python3
 
-# https://github.com/LineageOS/lineage_wiki.git
+"""
+    Convert the Wiki pages:
+        https://wiki.lineageos.org/devices/
+
+    use the git sources from:
+        https://github.com/LineageOS/lineage_wiki.git
+    via git submodule, see:
+        https://github.com/jedie/lineageos_info/blob/master/.gitmodules
+
+    more info in README, see:
+        https://github.com/jedie/lineageos_info#readme
+
+    created 28.12.2018 by Jens Diemer
+"""
+
 import csv
 import datetime
 import logging
