@@ -24,6 +24,7 @@ class CsvGenerator:
     HEADER_VENDOR = "vendor"
     HEADER_NAME = "name"
     HEADER_MAINTAINERS = "maintainers"
+    HEADER_REMOVEABLE_BATTERY = "removable battery"
     HEADER_RELEASE = "release"
     HEADER_SCREEN = "screen"
     HEADER_MODELS = "models"
@@ -41,6 +42,7 @@ class CsvGenerator:
             self.HEADER_VENDOR,
             self.HEADER_NAME,
             self.HEADER_MAINTAINERS,
+            self.HEADER_REMOVEABLE_BATTERY,
             self.HEADER_RELEASE,
             self.HEADER_SCREEN,
             self.HEADER_MODELS,
@@ -59,6 +61,7 @@ class CsvGenerator:
             self.HEADER_VENDOR: device["vendor_short"],
             self.HEADER_NAME: device["name"],
             self.HEADER_MAINTAINERS: len(device["maintainers"]),
+            self.HEADER_REMOVEABLE_BATTERY: device["removable_battery"],
             self.HEADER_RELEASE: device["release"],
             self.HEADER_SCREEN: device["screen"],
             self.HEADER_MODELS: ",".join([x for x in device.get("models", "")]),
@@ -122,12 +125,51 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
                 else:
                     device["screen"] = inches
 
+            removable_battery = "???"
+            battery = device.get("battery")
+            if not battery:
+                log.warning("Device %r hat no 'battery' entry!" % short_name)
+            else:
+                # Most wiki entry has only one battery entry...
+                # But e.g.: Device 'oneplus 3 / 3T' has:
+                # [
+                #   {3: {'removable': False, 'capacity': 3000, 'tech': 'Li-Ion'}},
+                #   {'3T': {'removable': False, 'capacity': 3400, 'tech': 'Li-Ion'}}
+                # ]
+                # Just convert to a list and join the result ;)
+                if not isinstance(battery, list):
+                    battery = [battery]
+
+                try:
+                    removable_battery = "/".join([get_removeable_info(short_name, b) for b in battery])
+                except Exception:
+                    # e.g.:
+                    # oppo Find 7a/s {'Find 7a': {'removable': True, 'capacity': 2800, 'tech': 'Li-Po', 'fastcharge': True}}
+                    removable_battery=" ".join([repr(i) for i in battery])
+                    log.error("Error parsing battery info from %r: %s", short_name, removable_battery)
+
+            device["removable_battery"] = removable_battery
+
             print(INFO_TEMPLATE.format(**device))
             csv_generator.add_device(device)
 
             # pprint(device)
 
     print("\n *** File generated: %s ***\n" % csv_file_path)
+
+
+def get_removeable_info(short_name, battery):
+    # print(short_name, battery)
+
+    if battery == "None":
+        # e.g.: nvidia Shield Android TV has no battery ;)
+        return "-"
+
+    convert = {None: "-", True: "yes", False: "no"}
+    removable = battery["removable"]
+    removable_battery = convert[removable]
+
+    return removable_battery
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-Generate csv on 2019-01-29 14:06:08.205859+0000
+Generate csv on 2019-01-29 16:18:21.263068+0000
 Skip 'lenovo Vibe K5 / K5 Plus': no maintainers.
 Skip 'fairphone FP2': RAM only: '2 GB'
 Skip 'asus ZenPad 8.0 (Z380KL)': only: [14.1]
@@ -41,6 +41,7 @@ Skip 'samsung Galaxy Tab 2 7.0 / Tab 2 10.1 (GSM)': no maintainers.
 Skip 'samsung Galaxy Tab 2 7.0 / Tab 2 10.1 (Wi-Fi / Wi-Fi + IR)': no maintainers.
 Skip 'lge G3 (Korea)': no maintainers.
 Skip 'motorola Moto G': only: [14.1]
+Error parsing battery info from 'oppo Find 7a/s': {'Find 7a': {'removable': True, 'capacity': 2800, 'tech': 'Li-Po', 'fastcharge': True}} {'Find 7s': {'removable': True, 'capacity': 3000, 'tech': 'Li-Po', 'fastcharge': True}}
 Skip 'asus Nexus 7 (Wi-Fi, 2013 version)': only: [14.1]
 Skip 'htc Nexus 9 (Wi-Fi)': only: [14.1]
 Skip 'htc Nexus 9 (LTE)': only: [14.1]
@@ -130,6 +131,7 @@ Skip 'samsung Galaxy Note 8.0 (LTE)': no maintainers.
 Skip 'sony Xperia M': no maintainers.
 Skip 'nubia Z9 Max': only: [14.1]
 Skip 'sony Xperia ZL': Storage only: '16 GB'
+Error parsing battery info from 'oneplus 3 / 3T': {3: {'removable': False, 'capacity': 3000, 'tech': 'Li-Ion'}} {'3T': {'removable': False, 'capacity': 3400, 'tech': 'Li-Ion'}}
 Skip 'oneplus X': no maintainers.
 Skip 'motorola Moto G 2015': only: [14.1]
 Skip 'motorola Moto E 2015': no maintainers.
