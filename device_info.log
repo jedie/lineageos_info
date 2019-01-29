@@ -1,4 +1,4 @@
-Generate csv on 2019-01-02 16:11:13.096746+0000
+Generate csv on 2019-01-29 14:06:08.205859+0000
 Skip 'lenovo Vibe K5 / K5 Plus': no maintainers.
 Skip 'fairphone FP2': RAM only: '2 GB'
 Skip 'asus ZenPad 8.0 (Z380KL)': only: [14.1]
@@ -21,7 +21,7 @@ Skip 'bq Aquaris U': only: [14.1]
 Skip 'huawei Honor 4x (China Telecom)': Storage only: '8 GB'
 Skip 'huawei Honor 4/4X (Unified)': Storage only: '8 GB'
 Skip 'motorola Moto X Pure Edition/Style (2015)': no maintainers.
-Skip 'motorola Moto E': only: [14.1]
+Skip 'motorola Moto E': no maintainers.
 Skip 'wileyfox Swift': RAM only: '2 GB'
 Skip 'samsung Galaxy S III (AT&T)': no maintainers.
 Skip 'samsung Galaxy S III (Sprint)': no maintainers.
@@ -72,7 +72,7 @@ Skip 'samsung Galaxy Note 3 LTE (N9005/P)': only: [14.1]
 Skip 'samsung Galaxy Note 3 LTE (N900T/V/W8)': only: [14.1]
 Skip 'sony Xperia SP': RAM only: '1 GB'
 Skip 'xiaomi Mi Max': no maintainers.
-Skip 'samsung Galaxy S II': only: [14.1]
+Skip 'samsung Galaxy S II': no maintainers.
 Skip 'samsung Galaxy S III (International)': only: [14.1]
 Skip 'samsung Galaxy S III (LTE / International)': no maintainers.
 Skip 'xiaomi Redmi 3/Prime': only: [14.1]
@@ -132,7 +132,7 @@ Skip 'nubia Z9 Max': only: [14.1]
 Skip 'sony Xperia ZL': Storage only: '16 GB'
 Skip 'oneplus X': no maintainers.
 Skip 'motorola Moto G 2015': only: [14.1]
-Skip 'motorola Moto E 2015': only: [14.1]
+Skip 'motorola Moto E 2015': no maintainers.
 Skip 'bq Aquaris X5': only: [13.0, 14.1]
 Skip 'ark Benefit A3': no maintainers.
 Skip 'motorola Moto G 4G': only: [14.1]
@@ -163,7 +163,6 @@ Skip 'samsung Galaxy Nexus LTE (Sprint)': no maintainers.
 Skip 'sony Xperia V': RAM only: '1 GB'
 Skip 'zte Axon 7 Mini': only: [14.1]
 Skip 'motorola RAZR/RAZR MAXX (GSM)': only: [13.0, 14.1]
-Skip 'lge V20 (US Unlocked)': only: [14.1]
 Skip 'lge G6 (US Unlocked)': only: [14.1]
 Skip 'samsung Galaxy Note Pro 12.2 Wi-Fi': only: [14.1]
 Skip 'lge G Pad 7.0 WiFi': no maintainers.
@@ -174,7 +173,6 @@ Skip 'lge G Pad X (T-Mobile)': no maintainers.
 Skip 'bq Aquaris E5 4G / Aquaris E5s': only: [14.1]
 Skip 'motorola Moto X 2014': only: [14.1]
 Skip 'lge G3 (Verizon)': no maintainers.
-Skip 'lge V20 (Verizon)': only: [14.1]
 Skip 'lge Optimus L70': only: [14.1]
 Skip 'lge L90': only: [14.1]
 Skip 'xiaomi Redmi Note 5 Pro': no maintainers.
@@ -182,3 +180,5 @@ Skip 'motorola Photon Q 4G LTE': only: [13.0, 14.1]
 Skip 'sony Xperia Z': Storage only: '16 GB'
 Skip 'samsung Galaxy S6': only: [14.1]
 Skip 'samsung Galaxy S6 Edge': only: [14.1]
+Skip 'lge V20 (US Unlocked)': only: [14.1]
+Skip 'lge V20 (Verizon)': only: [14.1]

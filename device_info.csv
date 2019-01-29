@@ -10,7 +10,7 @@ bq,Aquaris X Pro,2,2017-06,5.2,,3/4 GB LPDDR3,32/64/128 GB,Qualcomm MSM8953 Pro 
 xiaomi,Mi 5s,1,2016-10,5.15,,3/4 GB LPDDR4,32/64/128 GB UFS 2.0,Qualcomm MSM8996 Pro Snapdragon 821,https://wiki.lineageos.org/devices/capricorn
 oneplus,5,5,2017-06,5.5,,6/8 GB,64/128 GB UFS 2.1 2-LANE,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/cheeseburger
 xiaomi,Mi MIX 2,1,2017-09,5.99,,6/8 GB,64/128/256 GB,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/chiron
-sony,Xperia XA2 Ultra,2,2018-02,6,"H3213,H3223",4 GB,32 GB,Qualcomm SDM630 Snapdragon 630,https://wiki.lineageos.org/devices/discovery
+sony,Xperia XA2 Ultra,2,2018-02,6,"H3213,H4213,H4233,H3223",4 GB,32 GB,Qualcomm SDM630 Snapdragon 630,https://wiki.lineageos.org/devices/discovery
 google,Pixel C,1,2015-12-08,10.2,,3 GB,32/64 GB,NVIDIA Tegra X1,https://wiki.lineageos.org/devices/dragon
 oneplus,5T,2,2017-11,6.01,,6/8 GB,64/128 GB UFS 2.1 2-LANE,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/dumpling
 nextbit,Robin,2,2016-02,5.2,,3 GB,32 GB,Qualcomm MSM8992 Snapdragon 808,https://wiki.lineageos.org/devices/ether
@@ -34,7 +34,7 @@ xiaomi,Mi 5s Plus,1,2016-10,5.7,,4/6 GB LPDDR4,64/128 GB UFS2.0,Qualcomm MSM8996
 oneplus,2,2,2015-08-28,5.5,,3/4 GB,16/64 GB,Qualcomm MSM8994 Snapdragon 810,https://wiki.lineageos.org/devices/oneplus2
 oneplus,3 / 3T,1,"[{'A3000': '2016-06'}, {'A3003': '2016-10'}]",5.5,"A3000,A3003",6 GB LPDDR4,64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T),Qualcomm MSM8996 Snapdragon 820 (3) / Qualcomm MSM8996 Pro Snapdragon 821 (3T),https://wiki.lineageos.org/devices/oneplus3
 motorola,Moto X4,1,2017-10,5.2,,3/4/6 GB,32/64/128 GB,Qualcomm SDM630 Snapdragon 630,https://wiki.lineageos.org/devices/payton
-sony,Xperia XA2,3,2018-02,5.2,"H3113,H3133,H3123",3 GB,32 GB,Qualcomm SDM630 Snapdragon 630,https://wiki.lineageos.org/devices/pioneer
+sony,Xperia XA2,3,2018-02,5.2,"H3113,H4113,H3133,H4133,H3123",3 GB,32 GB,Qualcomm SDM630 Snapdragon 630,https://wiki.lineageos.org/devices/pioneer
 sony,Xperia Tablet Z Wi-Fi,5,2013-02,10.1,,2 GB LPDDR2,16/32 GB,Qualcomm APQ8064 Snapdragon S4 Pro,https://wiki.lineageos.org/devices/pollux_windy
 oppo,R5/R5s (International),1,"[{'R8106': '2014-12'}, {'R8106s': '2015-08'}]",5.2,"R8106,R8106s","2 GB (R5), 3 GB (R5s)","16 GB (R5), 32 GB (R5s)",Qualcomm MSM8939 Snapdragon 615,https://wiki.lineageos.org/devices/r5
 oppo,R7 Plus (International),2,2015-05,6.0,R7plusf,3/4 GB,32/64 GB,Qualcomm MSM8939 Snapdragon 615,https://wiki.lineageos.org/devices/r7plus
