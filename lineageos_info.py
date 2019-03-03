@@ -116,7 +116,7 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
                 continue
 
             versions = device["versions"]
-            if not 15.1 in versions:
+            if not 16 in versions:
                 log.info("Skip %r: only: %r", short_name, versions)
                 continue
 

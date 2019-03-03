@@ -4,7 +4,7 @@ Goal of this project: A good overview of all supported LineageOS devices.
 
 Filter rules are:
 
-* LineageOS v15.1 is supported
+* LineageOS v16 is supported
 * Device has maintainers
 * Has more than 2GB RAM and more than 16 GB storage space
 
