@@ -2,7 +2,8 @@
 
 set -xe
 
-git pull origin master
+git checkout lineageos16
+git pull origin lineageos16
 
 cd lineage_wiki
 git pull origin master
