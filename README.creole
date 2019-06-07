@@ -11,6 +11,8 @@ Filter rules are:
 The base data is the official Wiki: https://wiki.lineageos.org/devices/
 We use https://github.com/LineageOS/lineage_wiki/ as git submodules and read the files from [[https://github.com/LineageOS/lineage_wiki/tree/master/_data/devices|/_data/devices/]]
 
+Disscuss on reddit here: [[https://www.reddit.com/r/LineageOS/comments/alauhr/lineageos_supported_devices_info/|r/LineageOS supported devices info]]
+
 == results
 
 Current result csv is: [[https://github.com/jedie/lineageos_info/blob/master/device_info.csv|device_info.csv]]
