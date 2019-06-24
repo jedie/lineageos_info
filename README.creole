@@ -15,8 +15,8 @@ Disscuss on reddit here: [[https://www.reddit.com/r/LineageOS/comments/alauhr/li
 
 == results
 
-Current result csv is: [[https://github.com/jedie/lineageos_info/blob/master/device_info.csv|device_info.csv]]
-A list of skipped device is: [[https://github.com/jedie/lineageos_info/blob/master/device_info.log|device_info.log]]
+Current result csv is: [[https://github.com/jedie/lineageos_info/blob/lineageos16/device_info.csv|device_info.csv]]
+A list of skipped device is: [[https://github.com/jedie/lineageos_info/blob/lineageos16/device_info.log|device_info.log]]
 
 == tryout
 
