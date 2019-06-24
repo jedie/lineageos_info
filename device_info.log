@@ -1,8 +1,8 @@
-Generate csv on 2019-06-07 06:08:44.075746+0000
+Generate csv on 2019-06-24 08:55:54.248715+0000
 Skip 'lenovo Vibe K5 / K5 Plus': no maintainers.
 Skip 'fairphone FP2': RAM only: '2 GB'
 Skip 'asus ZenPad 8.0 (Z380KL)': no maintainers.
-Skip 'asus Zenfone Max Pro M1': only: [15.1]
+Skip 'asus Zenfone Max Pro M1': no maintainers.
 Skip 'asus Zenfone 2 (720p)': no maintainers.
 Skip 'asus Zenfone 2 (1080p)': no maintainers.
 Skip 'asus Zenfone 2 (ZE500CL)': no maintainers.
@@ -15,7 +15,7 @@ Skip 'motorola Moto Z2 Play': no maintainers.
 Skip 'huawei Nexus 6P': only: [14.1, 15.1]
 Skip 'xiaomi Redmi 1S': no maintainers.
 Skip 'motorola Moto G4': no maintainers.
-Skip 'zte Axon 7': only: [14.1, 15.1]
+Skip 'zte Axon 7': no maintainers.
 Skip 'lge Nexus 5X': only: [14.1, 15.1]
 Skip 'xiaomi Mi 3 / Mi 4': no maintainers.
 Skip 'samsung Galaxy Tab S 10.5 LTE': no maintainers.
@@ -23,7 +23,6 @@ Skip 'samsung Galaxy Tab S 10.5 Wi-Fi': no maintainers.
 Skip 'bq Aquaris U': no maintainers.
 Skip 'huawei Honor 4x (China Telecom)': only: [14.1, 15.1]
 Skip 'huawei Honor 4/4X (Unified)': only: [14.1, 15.1]
-Skip 'xiaomi Mi MIX 2': only: [15.1]
 Skip 'motorola Moto X Pure Edition/Style (2015)': no maintainers.
 Skip 'motorola Moto E': no maintainers.
 Skip 'wileyfox Swift': RAM only: '2 GB'
@@ -122,7 +121,7 @@ Skip 'htc One (Verizon)': no maintainers.
 Skip 'htc One (M8)': no maintainers.
 Skip 'htc One (M8) Dual SIM': no maintainers.
 Skip 'samsung Galaxy Nexus GSM': no maintainers.
-Skip 'lge Nexus 4': only: [14.1, 15.1]
+Skip 'lge Nexus 4': no maintainers.
 Skip 'samsung Nexus 10': no maintainers.
 Skip 'motorola Droid 4': no maintainers.
 Skip 'motorola Moto G3 Turbo': no maintainers.
@@ -152,7 +151,6 @@ Skip 'sony Xperia Tablet Z LTE': only: [14.1, 15.1]
 Skip 'sony Xperia Tablet Z Wi-Fi': only: [14.1, 15.1]
 Skip 'nvidia Shield Portable': no maintainers.
 Skip 'leeco Le 2': only: [13.0, 14.1, 15.1]
-Skip 'xiaomi Mi 6': only: [15.1]
 Skip 'xiaomi Redmi 4(X)': only: [15.1]
 Skip 'google Android One 2nd Gen': no maintainers.
 Skip 'samsung Galaxy S4 Mini (International 3G)': no maintainers.
@@ -160,8 +158,8 @@ Skip 'samsung Galaxy S4 Mini (International Dual SIM)': no maintainers.
 Skip 'samsung Galaxy S4 Mini (International LTE)': no maintainers.
 Skip 'nvidia Shield Tablet': only: [13.0, 14.1, 15.1]
 Skip 'motorola Droid RAZR/RAZR MAXX (CDMA)': no maintainers.
-Skip 'samsung Galaxy S9+': only: [15.1]
-Skip 'samsung Galaxy S9': only: [15.1]
+Skip 'samsung Galaxy S9+': no maintainers.
+Skip 'samsung Galaxy S9': no maintainers.
 Skip 'sony Xperia Z5': no maintainers.
 Skip 'motorola Moto E 2015 LTE': no maintainers.
 Skip 'sony Xperia Z5 Compact': no maintainers.
