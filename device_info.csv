@@ -1,6 +1,9 @@
 vendor,name,maintainers,removable battery,release,screen,models,RAM,storage,SOC,Wiki Link
+asus,Zenfone Max Pro M1,1,no,2018-05,5.99,,3/4/6 GB,64 GB,Qualcomm SDM636 Snapdragon 636,https://wiki.lineageos.org/devices/X00TD
 lenovo,Yoga Tab 3 Plus Wi-Fi,2,no,2016-12,10.1,YTX703F,3 GB,32 GB,Qualcomm APQ8076 Snapdragon 652,https://wiki.lineageos.org/devices/YTX703F
 lenovo,Yoga Tab 3 Plus LTE,2,no,2016-12,10.1,"YTX703L,YTX703X",3 GB,32 GB,Qualcomm MSM8976 Snapdragon 652,https://wiki.lineageos.org/devices/YTX703L
+samsung,Galaxy A5 (2017),2,no,2017-01-02,5.2,"SM-A520F,SM-A520F/DS,SM-A520W",3 GB,32/64 GB,Samsung Exynos 7880,https://wiki.lineageos.org/devices/a5y17lte
+samsung,Galaxy A7 (2017),2,no,2017-01-02,5.2,"SM-A720F,SM-A720F/DS",3 GB,32/64 GB,Samsung Exynos 7880,https://wiki.lineageos.org/devices/a7y17lte
 oneplus,One,2,no,2014-06-06,5.5,,3 GB,16/64 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/bacon
 bq,Aquaris X,3,no,2017-06,5.2,,3/4 GB LPDDR3,32/64 GB,Qualcomm MSM8953 Pro Snapdragon 626,https://wiki.lineageos.org/devices/bardock
 bq,Aquaris X Pro,2,no,2017-06,5.2,,3/4 GB LPDDR3,32/64/128 GB,Qualcomm MSM8953 Pro Snapdragon 626,https://wiki.lineageos.org/devices/bardockpro
@@ -16,6 +19,8 @@ motorola,Moto Z,5,no,2016-09,5.5,"XT1650-03,XT1650-05",4 GB,32/64 GB,Qualcomm MS
 samsung,Galaxy Tab S2 9.7 Wi-Fi (2016),2,no,2016,9.7,SM-T813,3 GB,32/64 GB,Qualcomm MSM8976 Snapdragon 652,https://wiki.lineageos.org/devices/gts210vewifi
 samsung,Galaxy Tab S2 8.0 Wi-Fi (2016),3,no,2016,8.0,SM-T713,3 GB,32/64 GB,Qualcomm MSM8976 Snapdragon 652,https://wiki.lineageos.org/devices/gts28vewifi
 zuk,Z1,1,no,2015-10-14,5.5,,3 GB,64 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/ham
+samsung,Galaxy Note 3 LTE (N9005/P),2,yes,2013-09,5.7,"SM-N9005,SM-N900P",3 GB,16/32/64 GB,Qualcomm MSM8974AB Snapdragon 800,https://wiki.lineageos.org/devices/hlte
+samsung,Galaxy Note 3 LTE (N900T/V/W8),2,yes,2013-09,5.7,"SM-N900T,SM-N900V,SM-N900W8",3 GB,16/32/64 GB,Qualcomm MSM8974AB Snapdragon 800,https://wiki.lineageos.org/devices/hltetmo
 xiaomi,Mi Note 3,1,no,2017-09,5.5,,4/6 GB,64/128 GB,Qualcomm SDM660 Snapdragon 660,https://wiki.lineageos.org/devices/jason
 wileyfox,Storm,1,no,2015-11,5.5,,3 GB,32 GB,Qualcomm MSM8939 Snapdragon 615,https://wiki.lineageos.org/devices/kipper
 lenovo,P2,2,no,2016-11,5.5,P2a42,3/4 GB,32/64 GB,Qualcomm MSM8953 Snapdragon 625,https://wiki.lineageos.org/devices/kuntao
@@ -42,7 +47,10 @@ leeco,Le Max2,2,no,2016-04,5.7,"LEX820,LEX821,LEX822,LEX829",4/6 GB,32/64/128 GB
 xiaomi,Mi 8,1,no,2018-07,6.21,,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,Qualcomm SDM845 Snapdragon 845,https://wiki.lineageos.org/devices/dipper
 leeco,Le Pro3 / Le Pro3 Elite,1,no,"[{'Le Pro3': '2016-10'}, {'Le Pro3 Elite': '2017-03'}]",5.5,"LEX720,LEX722,LEX727",4/6 GB,32/64/128 GB,Qualcomm MSM8996 Snapdragon 820 (Le Pro3 Elite) / Qualcomm MSM8996 Pro Snapdragon 821 (Le Pro3),https://wiki.lineageos.org/devices/zl1
 essential,Essential PH-1,4,no,2017-08,5.71,,4 GB,128 GB UFS 2.1 2-LANE,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/mata
+samsung,Galaxy Note 3 LTE (N9008V),2,yes,2013-09,5.7,SM-N9008V,3 GB,16/32/64 GB,Qualcomm MSM8974AB Snapdragon 800,https://wiki.lineageos.org/devices/hltechn
 huawei,Honor View 10,1,no,2018-01,5.99,"BKL-AL00,BKL-AL10,BKL-AL20,BKL-L09,BKL-TL10,BKL-TL20",4/6 GB,64/128 GB,HiSilicon Kirin 970,https://wiki.lineageos.org/devices/berkeley
 xiaomi,Poco F1,2,no,2018-08,6.18,,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,Qualcomm SDM845 Snapdragon 845,https://wiki.lineageos.org/devices/beryllium
 huawei,P20 Pro,1,no,2018-04,6.1,"CLT-AL00,CLT-AL01,CLT-L04,CLT-L09,CLT-L29,CLT-TL00,CLT-TL01",6/8 GB,128/256 GB,HiSilicon Kirin 970,https://wiki.lineageos.org/devices/charlotte
 xiaomi,Mi MIX 2S,1,no,2018-04,5.99,,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,Qualcomm SDM845 Snapdragon 845,https://wiki.lineageos.org/devices/polaris
+samsung,Galaxy Note 3 LTE (N900K/L/S),2,yes,2013-09,5.7,"SM-N900K,SM-N900L,SM-N900S",3 GB,16/32/64 GB,Qualcomm MSM8974AB Snapdragon 800,https://wiki.lineageos.org/devices/hltekor
+xiaomi,Redmi Note 7 Pro,1,no,2019-03-13,6.3,,4 GB,64/128 GB,Qualcomm sm6150 Snapdragon 675,https://wiki.lineageos.org/devices/violet
