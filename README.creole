@@ -20,12 +20,33 @@ A list of skipped device is: [[https://github.com/jedie/lineageos_info/blob/line
 
 == tryout
 
-Clone and create virtualenv:
+=== install requirements
+
+Only [[https://pyyaml.org/wiki/PyYAMLDocumentation|pyyaml]] is needed.
+
+==== prepare system
+
+If you don't have {{{pipenv}}} installed, install {{{pip}}} and install it:
+{{{
+# install pip e.g.:
+~$ sudo apt install python3-pip
+# or:
+~$ sudo python3 -m ensurepip --upgrade
+}}}
+Or use get-pip, see: https://pip.pypa.io/en/stable/installing/
+
+Install {{{pipenv}}}, e.g.:
+{{{
+~$ sudo pip3 install -U pipenv
+}}}
+
+==== Clone and setup pipenv
+
 {{{
 ~$ git clone --recursive https://github.com/jedie/lineageos_info.git
 ~$ cd lineageos_info/
 ~/lineageos_info$ git submodule update --init --recursive
-~/lineageos_info$ ./create_env.sh
+~/lineageos_info$ pipenv sync
 }}}
 
 Generate device info:
@@ -33,12 +54,9 @@ Generate device info:
 # go into project directory:
 ~$ cd lineageos_info/
 
-# activate virtualenv:
-~/lineageos_info$ source .virtualenv/bin/activate
-
 # Update git repro and submodules:
 ~/lineageos_info$ ./git_update.sh
 
 # generate new csv file:
-(.virtualenv) ~/lineageos_info$ python3 lineageos_info.py
+(.virtualenv) ~/lineageos_info$ pipenv run ./lineageos_info.py
 }}}
