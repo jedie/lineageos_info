@@ -1,4 +1,17 @@
-Generate csv on 2019-08-12 09:44:30.002227+0000
+Generate csv on 2019-11-10 14:09:27.508786+0000
+Skip 'motorola Moto X': no maintainers.
+Skip 'samsung Galaxy Tab E 8.0 LTE (Sprint)': no maintainers.
+Skip 'lge G5 (T-Mobile)': no maintainers.
+Skip 'lge G6 (EU Unlocked)': no maintainers.
+Skip 'lge V20 (AT&T)': no maintainers.
+Skip 'lge V20 (T-Mobile)': no maintainers.
+Skip 'lge V20 (Sprint)': no maintainers.
+Skip 'samsung Galaxy Tab 3 7.0 LTE': no maintainers.
+Skip 'lge V20 (US Unlocked)': no maintainers.
+Skip 'lge G6 (US Unlocked)': no maintainers.
+Skip 'lge G Pad 8.0 (Wi-Fi)': no maintainers.
+Skip 'lge G Pad X (T-Mobile)': no maintainers.
+Skip 'lge V20 (Verizon)': no maintainers.
 Skip 'lenovo Vibe K5 / K5 Plus': no maintainers.
 Skip 'fairphone FP2': RAM only: '2 GB'
 Skip 'asus ZenPad 8.0 (Z380KL)': no maintainers.
@@ -7,6 +20,8 @@ Skip 'asus Zenfone 2 (1080p)': no maintainers.
 Skip 'asus Zenfone 2 (ZE500CL)': no maintainers.
 Skip 'asus Zenfone 2 Laser (720p)': no maintainers.
 Skip 'asus Zenfone 2 Laser/Selfie (1080p)': no maintainers.
+Skip 'samsung Galaxy A3 (2016)': Storage only: '16 GB'
+Skip 'samsung Galaxy A5 (2016)': RAM only: '2 GB'
 Skip 'motorola Moto Z Play': no maintainers.
 Skip 'motorola Moto Z2 Play': no maintainers.
 Skip 'huawei Nexus 6P': only: [14.1, 15.1]
@@ -31,16 +46,12 @@ Skip 'lge G2 (AT&T)': RAM only: '2 GB'
 Skip 'lge G2 (T-Mobile)': RAM only: '2 GB'
 Skip 'lge G2 (International)': RAM only: '2 GB'
 Skip 'lge G2 (Canadian)': RAM only: '2 GB'
-Skip 'lge G3 (AT&T)': only: [14.1, 15.1]
-Skip 'lge G3 (T-Mobile)': only: [14.1, 15.1]
-Skip 'lge G3 (Canada)': only: [14.1, 15.1]
-Skip 'lge G3 (International)': only: [14.1, 15.1]
 Skip 'asus Nexus 7 (LTE, 2013 version)': no maintainers.
 Skip 'sony Xperia ZR': only: [14.1, 15.1]
 Skip 'google Pixel C': only: [14.1, 15.1]
 Skip 'samsung Galaxy Tab 2 7.0 / Tab 2 10.1 (GSM)': no maintainers.
 Skip 'samsung Galaxy Tab 2 7.0 / Tab 2 10.1 (Wi-Fi / Wi-Fi + IR)': no maintainers.
-Skip 'lge G3 (Korea)': only: [14.1, 15.1]
+Skip 'oppo F1 (International)': Storage only: '16 GB'
 Skip 'motorola Moto G': no maintainers.
 Error parsing battery info from 'oppo Find 7a/s': {'Find 7a': {'removable': True, 'capacity': 2800, 'tech': 'Li-Po', 'fastcharge': True}} {'Find 7s': {'removable': True, 'capacity': 3000, 'tech': 'Li-Po', 'fastcharge': True}}
 Skip 'asus Nexus 7 (Wi-Fi, 2013 version)': no maintainers.
@@ -49,19 +60,13 @@ Skip 'htc Nexus 9 (LTE)': no maintainers.
 Skip 'nvidia Shield Android TV': only: [14.1, 15.1]
 Skip 'asus Nexus Player': only: [14.1, 15.1]
 Skip 'lge G2 Mini': no maintainers.
-Skip 'motorola Moto X': no maintainers.
 Skip 'bq Aquaris X5 Plus': no maintainers.
 Skip 'samsung Galaxy Tab E 9.6 (WiFi)': no maintainers.
-Skip 'samsung Galaxy Tab E 8.0 LTE (Sprint)': no maintainers.
 Skip 'samsung Galaxy Tab S2 9.7 (LTE)': no maintainers.
 Skip 'samsung Galaxy Tab S2 9.7 (Wi-Fi)': no maintainers.
 Skip 'lge G4 (T-Mobile)': no maintainers.
 Skip 'lge G4 (International)': no maintainers.
-Skip 'lge G5 (T-Mobile)': no maintainers.
 Skip 'lge G5 (International)': no maintainers.
-Skip 'lge G6 (EU Unlocked)': no maintainers.
-Skip 'lge V20 (AT&T)': no maintainers.
-Skip 'lge V20 (T-Mobile)': no maintainers.
 Skip 'samsung Galaxy Note 3 (International 3G)': no maintainers.
 Skip 'lge Nexus 5': no maintainers.
 Skip 'motorola Moto G4 Play': no maintainers.
@@ -78,12 +83,16 @@ Skip 'samsung Galaxy S III (International)': no maintainers.
 Skip 'samsung Galaxy S III (LTE / International)': no maintainers.
 Skip 'xiaomi Redmi 3/Prime': no maintainers.
 Skip 'sony Xperia Z3+': no maintainers.
+Skip 'samsung Galaxy S4 Active': RAM only: '2 GB'
 Skip 'lge G3 S': no maintainers.
 Skip 'lge G3 Beat': no maintainers.
 Skip 'yu Yunique': no maintainers.
 Skip 'zte AT&T Trek 2 HD': no maintainers.
-Skip 'samsung Galaxy S4 (Verizon)': RAM only: '2 GB'
-Skip 'samsung Galaxy S4 (GT-I9505/G, SGH-M919, SGH-I337M)': RAM only: '2 GB'
+Skip 'samsung Galaxy S4 (SGH-I337)': RAM only: '2 GB'
+Skip 'samsung Galaxy S4 (SCH-R970, SPH-L720)': RAM only: '2 GB'
+Skip 'samsung Galaxy S4 (SCH-I545)': RAM only: '2 GB'
+Skip 'samsung Galaxy S4 (GT-I9505/G, SGH-I337M, SGH-M919)': RAM only: '2 GB'
+Skip 'samsung Galaxy S4 Value Edition (GT-I9515/L)': RAM only: '2 GB'
 Skip 'samsung Galaxy S5 (International 3G)': no maintainers.
 Skip 'sony Xperia Z4 Tablet LTE': no maintainers.
 Skip 'sony Xperia Z4 Tablet WiFi': no maintainers.
@@ -102,12 +111,8 @@ Skip 'samsung Galaxy S5 LTE (SCL23)': RAM only: '2 GB'
 Skip 'samsung Galaxy S5 LTE (G900K/L/S)': RAM only: '2 GB'
 Skip 'samsung Galaxy S5 Sport': no maintainers.
 Skip 'samsung Galaxy S4 LTE-A (GT-I9506)': no maintainers.
-Skip 'xiaomi Redmi 3S/3X': only: [14.1, 15.1]
-Skip 'yu Yuphoria': RAM only: '2 GB'
+Skip 'yu Yuphoria': no maintainers.
 Skip 'xiaomi Mi 4c': no maintainers.
-Skip 'lge G3 (Sprint)': only: [14.1, 15.1]
-Skip 'lge V20 (Sprint)': no maintainers.
-Skip 'samsung Galaxy Tab 3 7.0 LTE': no maintainers.
 Skip 'samsung Galaxy Note 10.1 2014 (LTE)': no maintainers.
 Skip 'motorola Moto X Play': no maintainers.
 Skip 'lge K10': no maintainers.
@@ -120,7 +125,6 @@ Skip 'lge Nexus 4': no maintainers.
 Skip 'samsung Nexus 10': no maintainers.
 Skip 'motorola Droid 4': no maintainers.
 Skip 'motorola Moto G3 Turbo': no maintainers.
-Skip 'xiaomi Redmi Note 4': only: [14.1, 15.1]
 Skip 'sony Xperia T': only: [14.1, 15.1]
 Skip 'samsung Galaxy Tab Pro 8.4': no maintainers.
 Skip 'huawei Ascend Mate 2 4G': no maintainers.
@@ -146,7 +150,7 @@ Skip 'sony Xperia Tablet Z LTE': only: [14.1, 15.1]
 Skip 'sony Xperia Tablet Z Wi-Fi': only: [14.1, 15.1]
 Skip 'nvidia Shield Portable': no maintainers.
 Skip 'leeco Le 2': only: [13.0, 14.1, 15.1]
-Skip 'xiaomi Redmi 4(X)': only: [15.1]
+Skip 'samsung Galaxy S5 Neo': RAM only: '2 GB'
 Skip 'google Android One 2nd Gen': no maintainers.
 Skip 'samsung Galaxy S4 Mini (International 3G)': no maintainers.
 Skip 'samsung Galaxy S4 Mini (International Dual SIM)': no maintainers.
@@ -165,34 +169,27 @@ Skip 'sony Xperia L': no maintainers.
 Skip 'motorola Droid Bionic': no maintainers.
 Skip 'bq Aquaris U Plus': no maintainers.
 Skip 'motorola Moto G 2014 LTE': no maintainers.
-Skip 'lge G Pad 8.0 (Wi-Fi)': no maintainers.
+Skip 'motorola Moto G 2014': no maintainers.
 Skip 'yu Yureka / Yureka Plus': no maintainers.
 Skip 'samsung Galaxy Nexus LTE (Verizon)': no maintainers.
 Skip 'samsung Galaxy Nexus LTE (Sprint)': no maintainers.
 Skip 'sony Xperia V': only: [14.1, 15.1]
+Skip 'zte Axon 7 Mini': no maintainers.
 Skip 'motorola RAZR/RAZR MAXX (GSM)': no maintainers.
-Skip 'lge G6 (US Unlocked)': no maintainers.
 Skip 'samsung Galaxy Note Pro 12.2 Wi-Fi': no maintainers.
-Skip 'bq Aquaris E5 4G / Aquaris E5s': no maintainers.
-Skip 'oppo F1 (International)': Storage only: '16 GB'
 Skip 'lge G Pad 7.0 WiFi': no maintainers.
 Skip 'lge G Pad 7.0 (LTE)': no maintainers.
 Skip 'lge G Pad 8.3': no maintainers.
-Skip 'lge G Pad X (T-Mobile)': no maintainers.
-Skip 'motorola Moto X 2014': no maintainers.
-Skip 'lge G3 (Verizon)': only: [14.1, 15.1]
-Skip 'lge V20 (Verizon)': no maintainers.
+Skip 'bq Aquaris E5 4G / Aquaris E5s': no maintainers.
+Skip 'motorola Moto X 2014': RAM only: '2 GB'
+Skip 'xiaomi Redmi Note 7 Pro': no maintainers.
 Skip 'lge Optimus L70': no maintainers.
 Skip 'lge L90': no maintainers.
 Skip 'xiaomi Redmi Note 5 Pro': no maintainers.
+Skip 'wingtech Redmi 2': only: [14.1, 15.1]
 Skip 'motorola Photon Q 4G LTE': no maintainers.
 Skip 'sony Xperia Z': only: [14.1, 15.1]
-Skip 'samsung Galaxy S6 Edge': no maintainers.
-Skip 'wingtech Redmi 2': only: [14.1, 15.1]
-Skip 'motorola Moto G 2014': no maintainers.
-Skip 'zte Axon 7 Mini': no maintainers.
-Skip 'lge V20 (US Unlocked)': no maintainers.
+Skip 'sony Xperia Z3 Compact': RAM only: '2 GB'
+Error parsing battery info from 'asus Zenfone 3': {'ZE520KL': {'removable': False, 'capacity': 2600, 'tech': 'Li-Po'}} {'ZE552KL': {'removable': False, 'capacity': 3000, 'tech': 'Li-Ion'}}
 Skip 'samsung Galaxy S6': no maintainers.
-Skip 'samsung Galaxy S4 Active': RAM only: '2 GB'
-Skip 'samsung Galaxy S4 (SGH-I337)': RAM only: '2 GB'
-Skip 'samsung Galaxy S4 (SCH-R970, SPH-L720)': RAM only: '2 GB'
+Skip 'samsung Galaxy S6 Edge': no maintainers.
