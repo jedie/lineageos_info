@@ -30,7 +30,7 @@ log = logging.getLogger(__name__)
 
 log.addHandler(logging.FileHandler("device_info.log", mode="w", encoding="UTF-8"))
 
-
+LINEAGE_OS_VERSION = 17
 INFO_TEMPLATE = """{vendor} {name} - https://wiki.lineageos.org/devices/{codename}"""
 
 
@@ -85,7 +85,7 @@ class CsvGenerator:
             self.HEADER_RAM: device["ram"],
             self.HEADER_STORAGE: device["storage"],
             self.HEADER_SOC: device["soc"],
-            self.HEADER_WIKI_LINK: "https://wiki.lineageos.org/devices/%s" % device["codename"],
+            self.HEADER_WIKI_LINK: f"https://wiki.lineageos.org/devices/{device['codename']}",
         }
         self.csv_writer.writerow(row)
 
@@ -94,12 +94,12 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
     assert isinstance(csv_file_path, Path)
     assert isinstance(wiki_devices_path, Path)
 
-    print("Read WIKI divice files from: %s" % wiki_devices_path)
-    assert wiki_devices_path.is_dir(), "ERROR: Path not found: %s" % wiki_devices_path
+    print(f"Read WIKI divice files from: {wiki_devices_path}")
+    assert wiki_devices_path.is_dir(), f"ERROR: Path not found: {wiki_devices_path}"
 
     csv_file_path = csv_file_path.resolve()
 
-    print("Generate: %s" % csv_file_path)
+    print(f"Generate: {csv_file_path}")
     log.info("Generate csv on %s+0000", datetime.datetime.utcnow())
 
     with csv_file_path.open("w") as csv_file:
@@ -118,8 +118,8 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
                 log.info("Skip %r: no maintainers.", short_name)
                 continue
 
-            versions = device["versions"]
-            if not 16 in versions:
+            versions = [int(ver) for ver in device["versions"]]
+            if LINEAGE_OS_VERSION not in versions:
                 log.info("Skip %r: only: %r", short_name, versions)
                 continue
 
@@ -136,7 +136,7 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
             screen = device["screen"]
             if screen:
                 try:
-                    inches = re.findall(".*?([\d\.]+) in.*?", screen)[0]
+                    inches = re.findall(r".*?([\d\.]+) in.*?", screen)[0]
                 except IndexError:
                     pass
                 else:
@@ -145,7 +145,7 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
             removable_battery = "???"
             battery = device.get("battery")
             if not battery:
-                log.warning("Device %r hat no 'battery' entry!" % short_name)
+                log.warning(f"Device {short_name!r} hat no 'battery' entry!")
             else:
                 # Most wiki entry has only one battery entry...
                 # But e.g.: Device 'oneplus 3 / 3T' has:
@@ -161,8 +161,9 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
                     removable_battery = "/".join([get_removeable_info(short_name, b) for b in battery])
                 except Exception:
                     # e.g.:
-                    # oppo Find 7a/s {'Find 7a': {'removable': True, 'capacity': 2800, 'tech': 'Li-Po', 'fastcharge': True}}
-                    removable_battery=" ".join([repr(i) for i in battery])
+                    # oppo Find 7a/s {'Find 7a': {'removable': True, 'capacity': 2800, 'tech':
+                    # 'Li-Po', 'fastcharge': True}}
+                    removable_battery = " ".join([repr(i) for i in battery])
                     log.error("Error parsing battery info from %r: %s", short_name, removable_battery)
 
             device["removable_battery"] = removable_battery
@@ -172,7 +173,7 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
 
             # pprint(device)
 
-    print("\n *** File generated: %s ***\n" % csv_file_path)
+    print(f"\n *** File generated: {csv_file_path} ***\n")
 
 
 def get_removeable_info(short_name, battery):

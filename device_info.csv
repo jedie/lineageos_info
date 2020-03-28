@@ -1,81 +1,17 @@
 vendor,name,maintainers,codename,removable battery,release,screen,models,RAM,storage,SOC,Wiki Link
-asus,Zenfone Max Pro M1,1,X00TD,no,2018-05,5.99,,3/4/6 GB,64 GB,Qualcomm SDM636 Snapdragon 636,https://wiki.lineageos.org/devices/X00TD
-lenovo,Yoga Tab 3 Plus Wi-Fi,2,YTX703F,no,2016-12,10.1,YTX703F,3 GB,32 GB,Qualcomm APQ8076 Snapdragon 652,https://wiki.lineageos.org/devices/YTX703F
-lenovo,Yoga Tab 3 Plus LTE,2,YTX703L,no,2016-12,10.1,"YTX703L,YTX703X",3 GB,32 GB,Qualcomm MSM8976 Snapdragon 652,https://wiki.lineageos.org/devices/YTX703L
-samsung,Galaxy A5 (2017),2,a5y17lte,no,2017-01-02,5.2,"SM-A520F,SM-A520F/DS,SM-A520W",3 GB,32/64 GB,Samsung Exynos 7880,https://wiki.lineageos.org/devices/a5y17lte
-samsung,Galaxy A7 (2017),2,a7y17lte,no,2017-01-02,5.2,"SM-A720F,SM-A720F/DS",3 GB,32/64 GB,Samsung Exynos 7880,https://wiki.lineageos.org/devices/a7y17lte
-oneplus,One,1,bacon,no,2014-06-06,5.5,,3 GB,16/64 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/bacon
-bq,Aquaris X,3,bardock,no,2017-06,5.2,,3/4 GB LPDDR3,32/64 GB,Qualcomm MSM8953 Pro Snapdragon 626,https://wiki.lineageos.org/devices/bardock
-bq,Aquaris X Pro,2,bardockpro,no,2017-06,5.2,,3/4 GB LPDDR3,32/64/128 GB,Qualcomm MSM8953 Pro Snapdragon 626,https://wiki.lineageos.org/devices/bardockpro
-xiaomi,Mi 5s,1,capricorn,no,2016-10,5.15,,3/4 GB LPDDR4,32/64/128 GB UFS 2.0,Qualcomm MSM8996 Pro Snapdragon 821,https://wiki.lineageos.org/devices/capricorn
-oneplus,5,5,cheeseburger,no,2017-06,5.5,,6/8 GB,64/128 GB UFS 2.1 2-LANE,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/cheeseburger
-xiaomi,Mi MIX 2,2,chiron,no,2017-09,5.99,,6/8 GB,64/128/256 GB,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/chiron
 lge,G3 (AT&T),2,d850,yes,2014-06,5.5,,2/3 GB,16/32 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/d850
 lge,G3 (T-Mobile),2,d851,yes,2014-06,5.5,,2/3 GB,16/32 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/d851
 lge,G3 (Canada),2,d852,yes,2014-06,5.5,,2/3 GB,16/32 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/d852
 lge,G3 (International),2,d855,yes,2014-06,5.5,,2/3 GB,16/32 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/d855
-sony,Xperia XA2 Ultra,1,discovery,no,2018-02,6,"H3213,H4213,H4233,H3223",4 GB,32 GB,Qualcomm SDM630 Snapdragon 630,https://wiki.lineageos.org/devices/discovery
-oneplus,5T,2,dumpling,no,2017-11,6.01,,6/8 GB,64/128 GB UFS 2.1 2-LANE,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/dumpling
-nextbit,Robin,3,ether,no,2016-02,5.2,,3 GB,32 GB,Qualcomm MSM8992 Snapdragon 808,https://wiki.lineageos.org/devices/ether
 lge,G3 (Korea),2,f400,yes,2014-06,5.5,,3 GB,16/32 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/f400
-oppo,Find 7a/s,1,find7,"{'Find 7a': {'removable': True, 'capacity': 2800, 'tech': 'Li-Po', 'fastcharge': True}} {'Find 7s': {'removable': True, 'capacity': 3000, 'tech': 'Li-Po', 'fastcharge': True}}","[{'Find 7a': datetime.date(2014, 3, 19)}, {'Find 7s': datetime.date(2014, 5, 19)}]",5.5,"Find 7a,Find 7s",2/3 GB,16/32 GB,Qualcomm MSM8974AB/MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/find7
-xiaomi,Mi 5,3,gemini,no,2016-04,5.15,,3 GB LPDDR4 (Standard and Pro editions) / 4 GB LPDDR4 (Exclusive edition),32 GB UFS2.0 (Standard edition) / 64 GB UFS2.0 (Pro edition) / 128 GB UFS2.0 (Exclusive edition),Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/gemini
 motorola,Moto Z,5,griffin,no,2016-09,5.5,"XT1650-03,XT1650-05",4 GB,32/64 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/griffin
-samsung,Galaxy Tab S2 9.7 Wi-Fi (2016),2,gts210vewifi,no,2016,9.7,SM-T813,3 GB,32/64 GB,Qualcomm MSM8976 Snapdragon 652,https://wiki.lineageos.org/devices/gts210vewifi
-samsung,Galaxy Tab S2 8.0 Wi-Fi (2016),3,gts28vewifi,no,2016,8,SM-T713,3 GB,32/64 GB,Qualcomm MSM8976 Snapdragon 652,https://wiki.lineageos.org/devices/gts28vewifi
-zuk,Z1,1,ham,no,2015-10-14,5.5,,3 GB,64 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/ham
-samsung,Galaxy Note 3 LTE (N9005/P),2,hlte,yes,2013-09,5.7,"SM-N9005,SM-N900P",3 GB,16/32/64 GB,Qualcomm MSM8974AB Snapdragon 800,https://wiki.lineageos.org/devices/hlte
-samsung,Galaxy Note 3 LTE (N900T/V/W8),2,hltetmo,yes,2013-09,5.7,"SM-N900T,SM-N900V,SM-N900W8",3 GB,16/32/64 GB,Qualcomm MSM8974AB Snapdragon 800,https://wiki.lineageos.org/devices/hltetmo
-xiaomi,Mi Note 3,1,jason,no,2017-09,5.5,,4/6 GB,64/128 GB,Qualcomm SDM660 Snapdragon 660,https://wiki.lineageos.org/devices/jason
-lenovo,P2,2,kuntao,no,2016-11,5.5,P2a42,3/4 GB,32/64 GB,Qualcomm MSM8953 Snapdragon 625,https://wiki.lineageos.org/devices/kuntao
-xiaomi,Redmi 3S/3X,1,land,no,2016-06,5.0,,2/3 GB,16/32 GB,Qualcomm MSM8937 Snapdragon 430,https://wiki.lineageos.org/devices/land
-samsung,Galaxy S5 LTE-A,2,lentislte,yes,2014-07-15,5.1,"SM-G906S,SM-G906K,SM-G906L",3 GB,32 GB,Qualcomm APQ8084 Snapdragon 805,https://wiki.lineageos.org/devices/lentislte
-xiaomi,Mi MIX,2,lithium,no,2016-10,6.4,,4/6 GB LPDDR4,128/256 GB UFS2.0,Qualcomm MSM8996 Pro Snapdragon 821,https://wiki.lineageos.org/devices/lithium
-lge,G3 (Sprint),2,ls990,yes,2014-06,5.5,,3 GB,16/32 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/ls990
-google,Pixel XL,2,marlin,no,2016-10,5.5,,4 GB,32/128 GB,Qualcomm MSM8996 Pro Snapdragon 821,https://wiki.lineageos.org/devices/marlin
-xiaomi,Redmi Note 4,1,mido,no,2017-01,5.5,,2/3/4 GB,32/64 GB,Qualcomm MSM8953 Snapdragon 625,https://wiki.lineageos.org/devices/mido
-motorola,Moto Z2 Force,2,nash,no,2017-07,5.5,"XT1789-02,XT1789-03,XT1789-04,XT1789-05,XT1789-06,XT1789-07","4 GB, 6 GB","64 GB, 128 GB (UFS 2.1 2-LANE)",Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/nash
-xiaomi,Mi 5s Plus,1,natrium,no,2016-10,5.7,,4/6 GB LPDDR4,64/128 GB UFS2.0,Qualcomm MSM8996 Pro Snapdragon 821,https://wiki.lineageos.org/devices/natrium
-oneplus,2,2,oneplus2,no,2015-08-28,5.5,,3/4 GB,16/64 GB,Qualcomm MSM8994 Snapdragon 810,https://wiki.lineageos.org/devices/oneplus2
-oneplus,3 / 3T,1,oneplus3,"{3: {'removable': False, 'capacity': 3000, 'tech': 'Li-Ion'}} {'3T': {'removable': False, 'capacity': 3400, 'tech': 'Li-Ion'}}","[{'A3000': '2016-06'}, {'A3003': '2016-10'}]",5.5,"A3000,A3003",6 GB LPDDR4,64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T),Qualcomm MSM8996 Snapdragon 820 (3) / Qualcomm MSM8996 Pro Snapdragon 821 (3T),https://wiki.lineageos.org/devices/oneplus3
-motorola,Moto X4,1,payton,no,2017-10,5.2,,3/4/6 GB,32/64/128 GB,Qualcomm SDM630 Snapdragon 630,https://wiki.lineageos.org/devices/payton
-sony,Xperia XA2,3,pioneer,no,2018-02,5.2,"H3113,H4113,H3133,H4133,H3123",3 GB,32 GB,Qualcomm SDM630 Snapdragon 630,https://wiki.lineageos.org/devices/pioneer
-oppo,R5/R5s (International),1,r5,no,"[{'R8106': '2014-12'}, {'R8106s': '2015-08'}]",5.2,"R8106,R8106s","2 GB (R5), 3 GB (R5s)","16 GB (R5), 32 GB (R5s)",Qualcomm MSM8939 Snapdragon 615,https://wiki.lineageos.org/devices/r5
-oppo,R7 Plus (International),1,r7plus,no,2015-05,6.0,R7plusf,3/4 GB,32/64 GB,Qualcomm MSM8939 Snapdragon 615,https://wiki.lineageos.org/devices/r7plus
-oppo,R7s (International),1,r7sf,no,2015-11,5.5,R7sf,4 GB,32 GB,Qualcomm MSM8939 Snapdragon 615,https://wiki.lineageos.org/devices/r7sf
-leeco,Le 2,2,s2,no,2016-04,5.5,"X520,X522,X526,X527",3 GB,32 GB,Qualcomm MSM8976 Snapdragon 652,https://wiki.lineageos.org/devices/s2
-xiaomi,Mi 6,2,sagit,no,2017-04,5.15,,4/6 GB,64/128 GB,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/sagit
-google,Pixel,2,sailfish,no,2016-10,5.0,,4 GB,32/128 GB,Qualcomm MSM8996 Pro Snapdragon 821,https://wiki.lineageos.org/devices/sailfish
-xiaomi,Redmi 4(X),1,santoni,no,2017-05,5.0,,2/3/4 GB,16/32/64 GB,Qualcomm MSM8940 Snapdragon 435,https://wiki.lineageos.org/devices/santoni
-xiaomi,Mi Note 2,1,scorpio,no,2016-11,5.7,,4/6 GB LPDDR4,64/128 GB UFS2.0,Qualcomm MSM8996 Pro Snapdragon 821,https://wiki.lineageos.org/devices/scorpio
-moto,Nexus 6,2,shamu,no,2014-10-29,5.96,,3 GB,32/64 GB,Qualcomm APQ8084 Snapdragon 805,https://wiki.lineageos.org/devices/shamu
-oneplus,6,2,enchilada,no,2018-04,6.28,,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,Qualcomm SDM845 Snapdragon 845,https://wiki.lineageos.org/devices/enchilada
-xiaomi,Mi A1,2,tissot,no,2017-10,5.5,,4 GB,32/64 GB,Qualcomm MSM8953 Snapdragon 625,https://wiki.lineageos.org/devices/tissot
+lge,G5 (T-Mobile),2,h830,yes,2016-02,5.3,,4 GB,32 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/h830
+lge,G5 (International),2,h850,yes,2016-02,5.3,,4 GB,32 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/h850
+lge,V20 (AT&T),2,h910,yes,2016-10,5.7,,4 GB,64 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/h910
+lge,V20 (T-Mobile),2,h918,yes,2016-10,5.7,,4 GB,64 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/h918
+lge,V20 (Sprint),2,ls997,yes,2016-10,5.7,,4 GB,64 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/ls997
 lge,G3 (Verizon),2,vs985,yes,2014-06,5.5,,3 GB,16/32 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/vs985
-zuk,Z2 Plus,1,z2_plus,no,2016-06,5.0,,3 GB LPDDR4 / 4 GB LPDDR4,32 / 64 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/z2_plus
-leeco,Le Max2,2,x2,no,2016-04,5.7,"LEX820,LEX821,LEX822,LEX829",4/6 GB,32/64/128 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/x2
-xiaomi,Mi 8,1,dipper,no,2018-07,6.21,,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,Qualcomm SDM845 Snapdragon 845,https://wiki.lineageos.org/devices/dipper
-leeco,Le Pro3 / Le Pro3 Elite,1,zl1,no,"[{'Le Pro3': '2016-10'}, {'Le Pro3 Elite': '2017-03'}]",5.5,"LEX720,LEX722,LEX727",4/6 GB,32/64/128 GB,Qualcomm MSM8996 Snapdragon 820 (Le Pro3 Elite) / Qualcomm MSM8996 Pro Snapdragon 821 (Le Pro3),https://wiki.lineageos.org/devices/zl1
-essential,Essential PH-1,4,mata,no,2017-08,5.71,,4 GB,128 GB UFS 2.1 2-LANE,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/mata
-samsung,Galaxy Note 3 LTE (N9008V),2,hltechn,yes,2013-09,5.7,SM-N9008V,3 GB,16/32/64 GB,Qualcomm MSM8974AB Snapdragon 800,https://wiki.lineageos.org/devices/hltechn
-huawei,Honor View 10,1,berkeley,no,2018-01,5.99,"BKL-AL00,BKL-AL10,BKL-AL20,BKL-L09,BKL-TL10,BKL-TL20",4/6 GB,64/128 GB,HiSilicon Kirin 970,https://wiki.lineageos.org/devices/berkeley
-xiaomi,Poco F1,2,beryllium,no,2018-08,6.18,,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,Qualcomm SDM845 Snapdragon 845,https://wiki.lineageos.org/devices/beryllium
-huawei,P20 Pro,1,charlotte,no,2018-04,6.1,"CLT-AL00,CLT-AL01,CLT-L04,CLT-L09,CLT-L29,CLT-TL00,CLT-TL01",6/8 GB,128/256 GB,HiSilicon Kirin 970,https://wiki.lineageos.org/devices/charlotte
-xiaomi,Mi MIX 2S,1,polaris,no,2018-04,5.99,,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,Qualcomm SDM845 Snapdragon 845,https://wiki.lineageos.org/devices/polaris
-samsung,Galaxy Note 3 LTE (N900K/L/S),2,hltekor,yes,2013-09,5.7,"SM-N900K,SM-N900L,SM-N900S",3 GB,16/32/64 GB,Qualcomm MSM8974AB Snapdragon 800,https://wiki.lineageos.org/devices/hltekor
-razer,Phone,2,cheryl,no,2017-11,5.7,,8 GB,64 GB,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/cheryl
-oneplus,6T,1,fajita,no,2018-11,6.41,,6/8 GB LPDDR4X,128/256 GB UFS2.1,Qualcomm SDM845 Snapdragon 845,https://wiki.lineageos.org/devices/fajita
-oneplus,7 Pro,2,guacamole,no,2019-05,6.67,,6/8/12GB GB LPDDR4X,128/256 GB UFS2.1,Qualcomm SM8150 Snapdragon 855,https://wiki.lineageos.org/devices/guacamole
-nubia,Z17,1,nx563j,no,2017-06,5.5,,6/8 GB,64/128 GB UFS 2.1,Qualcomm MSM8998 Snapdragon 835,https://wiki.lineageos.org/devices/nx563j
-motorola,Moto G7,3,river,no,2019-02,6.2,"XT1962-01,XT1962-04,XT1962-05,XT1962-06",4 GB,64 GB,Qualcomm MSM8953 Snapdragon 632,https://wiki.lineageos.org/devices/river
-samsung,Galaxy S III Neo (Dual SIM),2,s3ve3gds,yes,2014-04-11,4.8,GT-I9300I,1.5 GB,8/16 GB,Qualcomm MSM8226 Snapdragon 400,https://wiki.lineageos.org/devices/s3ve3gds
-samsung,Galaxy S III Neo (Samsung Camera),2,s3ve3gjv,yes,2014-04-11,4.8,"GT-I9301I,GT-I9301Q",1.5 GB,8/16 GB,Qualcomm MSM8226 Snapdragon 400,https://wiki.lineageos.org/devices/s3ve3gjv
-samsung,Galaxy S III Neo (Sony Camera),2,s3ve3gxx,yes,2014-04-11,4.8,"GT-I9301I,GT-I9301Q",1.5 GB,8/16 GB,Qualcomm MSM8226 Snapdragon 400,https://wiki.lineageos.org/devices/s3ve3gxx
-sony,Xperia Z3,2,z3,no,2014-09-04,5.2,D6603,3 GB,32 GB,Qualcomm MSM8974AC Snapdragon 801,https://wiki.lineageos.org/devices/z3
-bq,Aquaris X2,3,zangya,no,2018-05,5.65,,3/4 GB LPDDR3,32/64 GB,Qualcomm SDM660 Snapdragon 636,https://wiki.lineageos.org/devices/zangya
-bq,Aquaris X2 Pro,3,zangyapro,no,2018-05,5.65,,4/6 GB LPDDR3,64/128 GB,Qualcomm SDM660 Snapdragon 660,https://wiki.lineageos.org/devices/zangyapro
-asus,Zenfone 3,1,zenfone3,"{'ZE520KL': {'removable': False, 'capacity': 2600, 'tech': 'Li-Po'}} {'ZE552KL': {'removable': False, 'capacity': 3000, 'tech': 'Li-Ion'}}",2016-05-30,5.1,"ZE520KL,ZE552KL",2/3/4 GB,16/32/64 GB,Qualcomm MSM8953 Snapdragon 625,https://wiki.lineageos.org/devices/zenfone3
-yandex,Phone,2,Amber,no,2018-12,5.65,,4 GB,64 GB,Qualcomm SDM630 Snapdragon 630,https://wiki.lineageos.org/devices/Amber
-asus,Zenfone 6 (ZS630KL),2,I01WD,no,2019-05-16,6.4,,6/8 GB,64/128/256 GB UFS2.1,Qualcomm sm8150 Snapdragon 855,https://wiki.lineageos.org/devices/I01WD
-realme,3 Pro,3,RMX1851,no,2019-04-29,6.3,RMX1851,4/6 GB LPDDR4X,64/128 GB eMMC5.1,Qualcomm SDM710 Snapdragon 710,https://wiki.lineageos.org/devices/RMX1851
-asus,Zenfone Max Pro M2,2,X01BD,no,2018-12,6.26,,3/4/6 GB,32/64 GB,Qualcomm SDM660 Snapdragon 660,https://wiki.lineageos.org/devices/X01BD
+lge,V20 (Verizon),2,vs995,yes,2016-10,5.7,,4 GB,64 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/vs995
+lge,V20 (US Unlocked),2,us996,yes,2016-10,5.7,,4 GB,64 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/us996
+lge,G5 (US Unlocked),2,rs988,yes,2016-02,5.3,,4 GB,32 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/rs988
+lge,V20 (Global),2,h990,yes,2016-10,5.7,,4 GB,64 GB,Qualcomm MSM8996 Snapdragon 820,https://wiki.lineageos.org/devices/h990
