@@ -4,7 +4,7 @@ Goal of this project: A good overview of all supported LineageOS devices.
 
 Filter rules are:
 
-* LineageOS v16 is supported (There is also a [[https://github.com/jedie/lineageos_info/tree/lineageos15|only LineageOS v15 branch]])
+* LineageOS **v17** is supported (There is also a [[https://github.com/jedie/lineageos_info/tree/lineageos16|LineageOS v16]] and [[https://github.com/jedie/lineageos_info/tree/lineageos15|LineageOS v15]] branch]]))
 * Device has maintainers
 * Has more than 2GB RAM and more than 16 GB storage space
 
