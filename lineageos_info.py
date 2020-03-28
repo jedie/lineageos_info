@@ -38,6 +38,7 @@ class CsvGenerator:
     HEADER_VENDOR = "vendor"
     HEADER_NAME = "name"
     HEADER_MAINTAINERS = "maintainers"
+    HEADER_CODENAME = "codename"
     HEADER_REMOVEABLE_BATTERY = "removable battery"
     HEADER_RELEASE = "release"
     HEADER_SCREEN = "screen"
@@ -56,6 +57,7 @@ class CsvGenerator:
             self.HEADER_VENDOR,
             self.HEADER_NAME,
             self.HEADER_MAINTAINERS,
+            self.HEADER_CODENAME,
             self.HEADER_REMOVEABLE_BATTERY,
             self.HEADER_RELEASE,
             self.HEADER_SCREEN,
@@ -75,6 +77,7 @@ class CsvGenerator:
             self.HEADER_VENDOR: device["vendor_short"],
             self.HEADER_NAME: device["name"],
             self.HEADER_MAINTAINERS: len(device["maintainers"]),
+            self.HEADER_CODENAME: device["codename"],
             self.HEADER_REMOVEABLE_BATTERY: device["removable_battery"],
             self.HEADER_RELEASE: device["release"],
             self.HEADER_SCREEN: device["screen"],
