@@ -30,7 +30,7 @@ log = logging.getLogger(__name__)
 
 log.addHandler(logging.FileHandler("device_info.log", mode="w", encoding="UTF-8"))
 
-LINEAGE_OS_VERSION = 17
+LINEAGE_OS_VERSIONS = {16, 17}
 INFO_TEMPLATE = """{vendor} {name} - https://wiki.lineageos.org/devices/{codename}"""
 
 
@@ -46,6 +46,7 @@ class CsvGenerator:
     HEADER_RAM = "RAM"
     HEADER_STORAGE = "storage"
     HEADER_SOC = "SOC"
+    HEADER_VERSIONS = "versions"
 
     HEADER_WIKI_LINK = "Wiki Link"
 
@@ -65,6 +66,7 @@ class CsvGenerator:
             self.HEADER_RAM,
             self.HEADER_STORAGE,
             self.HEADER_SOC,
+            self.HEADER_VERSIONS,
             self.HEADER_WIKI_LINK,
         ]
 
@@ -85,12 +87,42 @@ class CsvGenerator:
             self.HEADER_RAM: device["ram"],
             self.HEADER_STORAGE: device["storage"],
             self.HEADER_SOC: device["soc"],
+            self.HEADER_VERSIONS: device["versions"],
             self.HEADER_WIKI_LINK: f"https://wiki.lineageos.org/devices/{device['codename']}",
         }
         self.csv_writer.writerow(row)
 
 
-def generate_csv(*, csv_file_path, wiki_devices_path):
+class MultiCsvFile:
+    def __init__(self, path, filename_template, versions):
+        self.path = path
+        assert '{version}' in filename_template
+        self.filename_template = filename_template
+        self.versions = versions
+
+    def __enter__(self):
+        self.files = []
+        self.csv_generators = {}
+        for version in self.versions:
+            filename = self.filename_template.format(version=version)
+            file_path = Path(self.path, filename)
+            csv_file = file_path.open('w')
+            self.files.append(csv_file)
+            self.csv_generators[version] = CsvGenerator(csv_file=csv_file)
+        return self
+
+    def add_device(self, version, device):
+        csv_generator = self.csv_generators[version]
+        csv_generator.add_device(device)
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        print()
+        for f in self.files:
+            f.close()
+            print(f' *** file generated: {f.name} ***')
+
+
+def generate_csv(*, csv_file_path, filename_template, wiki_devices_path, versions):
     assert isinstance(csv_file_path, Path)
     assert isinstance(wiki_devices_path, Path)
 
@@ -102,9 +134,7 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
     print(f"Generate: {csv_file_path}")
     log.info("Generate csv on %s+0000", datetime.datetime.utcnow())
 
-    with csv_file_path.open("w") as csv_file:
-        csv_generator = CsvGenerator(csv_file=csv_file)
-
+    with MultiCsvFile(csv_file_path, filename_template, versions) as multi_csv:
         for item in wiki_devices_path.iterdir():
             # print(item)
 
@@ -118,10 +148,12 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
                 log.info("Skip %r: no maintainers.", short_name)
                 continue
 
-            versions = [int(ver) for ver in device["versions"]]
-            if LINEAGE_OS_VERSION not in versions:
+            device_versions = {int(ver) for ver in device["versions"]}
+            filtered_version = device_versions & versions
+            if not filtered_version:
                 log.info("Skip %r: only: %r", short_name, versions)
                 continue
+            device["versions"] = ', '.join(f'{ver}' for ver in device["versions"])
 
             ram = device["ram"]
             if ram in ("1 GB", "2 GB"):
@@ -169,11 +201,10 @@ def generate_csv(*, csv_file_path, wiki_devices_path):
             device["removable_battery"] = removable_battery
 
             print(INFO_TEMPLATE.format(**device))
-            csv_generator.add_device(device)
+            for version in filtered_version:
+                multi_csv.add_device(version, device)
 
             # pprint(device)
-
-    print(f"\n *** File generated: {csv_file_path} ***\n")
 
 
 def get_removeable_info(short_name, battery):
@@ -191,4 +222,11 @@ def get_removeable_info(short_name, battery):
 
 
 if __name__ == "__main__":
-    generate_csv(csv_file_path=Path("device_info.csv"), wiki_devices_path=Path("lineage_wiki/_data/devices"))
+    generate_csv(
+        csv_file_path=Path('.'),
+        filename_template='device_info_{version}.csv',
+        wiki_devices_path=Path('lineage_wiki/_data/devices'),
+        versions=LINEAGE_OS_VERSIONS
+    )
+    print()
+    print('---END---')
