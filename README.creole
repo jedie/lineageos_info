@@ -17,10 +17,10 @@ Disscuss on reddit here: [[https://www.reddit.com/r/LineageOS/comments/alauhr/li
 
 Current result csv is:
 
-* LineageOS v16: [[https://github.com/jedie/lineageos_info/blob/lineageos16/device_info_16.csv|device_info_16.csv]]
-* LineageOS v17: [[https://github.com/jedie/lineageos_info/blob/lineageos16/device_info_17.csv|device_info_17.csv]]
+* LineageOS v16: [[https://github.com/jedie/lineageos_info/blob/master/device_info_16.csv|device_info_16.csv]]
+* LineageOS v17: [[https://github.com/jedie/lineageos_info/blob/master/device_info_17.csv|device_info_17.csv]]
 
-A list of skipped device is: [[https://github.com/jedie/lineageos_info/blob/lineageos16/device_info.log|device_info.log]]
+A list of skipped device is: [[https://github.com/jedie/lineageos_info/blob/master/device_info.log|device_info.log]]
 
 == tryout
 
