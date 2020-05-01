@@ -1,188 +1,185 @@
-Generate csv on 2020-05-01 10:27:10.337134+0000
-Skip 'lenovo Vibe K5 / K5 Plus': no maintainers.
-Skip 'fairphone FP2': RAM only: '2 GB'
-Skip 'asus ZenPad 8.0 (Z380KL)': no maintainers.
-Skip 'asus Zenfone 2 (720p)': no maintainers.
-Skip 'asus Zenfone 2 (1080p)': no maintainers.
-Skip 'asus Zenfone 2 (ZE500CL)': no maintainers.
-Skip 'asus Zenfone 2 Laser (720p)': no maintainers.
-Skip 'asus Zenfone 2 Laser/Selfie (1080p)': no maintainers.
-Skip 'samsung Galaxy A3 (2016)': Storage only: '16 GB'
-Skip 'samsung Galaxy A5 (2016)': RAM only: '2 GB'
-Skip 'motorola Moto Z Play': no maintainers.
-Skip 'motorola Moto Z2 Play': no maintainers.
-Skip 'huawei Nexus 6P': no maintainers.
-Skip 'xiaomi Redmi 1S': no maintainers.
-Skip 'motorola Moto G4': no maintainers.
-Skip 'zte Axon 7': no maintainers.
-Skip 'lge Nexus 5X': no maintainers.
-Skip 'xiaomi Mi 3 / Mi 4': no maintainers.
-Skip 'samsung Galaxy Tab S 10.5 LTE': no maintainers.
-Skip 'samsung Galaxy Tab S 10.5 Wi-Fi': no maintainers.
-Skip 'bq Aquaris U': no maintainers.
-Skip 'huawei Honor 4x (China Telecom)': no maintainers.
-Skip 'huawei Honor 4/4X (Unified)': no maintainers.
-Skip 'motorola Moto X Pure Edition/Style (2015)': no maintainers.
-Skip 'motorola Moto E': no maintainers.
-Skip 'wileyfox Swift': RAM only: '2 GB'
-Skip 'samsung Galaxy S III (AT&T)': no maintainers.
-Skip 'samsung Galaxy S III (Sprint)': no maintainers.
-Skip 'samsung Galaxy S III (T-Mobile)': no maintainers.
-Skip 'samsung Galaxy S III (Verizon)': no maintainers.
-Skip 'lge G2 (AT&T)': RAM only: '2 GB'
-Skip 'lge G2 (T-Mobile)': RAM only: '2 GB'
-Skip 'lge G2 (International)': RAM only: '2 GB'
-Skip 'lge G2 (Canadian)': RAM only: '2 GB'
-Skip 'asus Nexus 7 (LTE, 2013 version)': no maintainers.
-Skip 'sony Xperia ZR': no maintainers.
-Skip 'google Pixel C': no maintainers.
-Skip 'samsung Galaxy Tab 2 7.0 / Tab 2 10.1 (GSM)': no maintainers.
-Skip 'samsung Galaxy Tab 2 7.0 / Tab 2 10.1 (Wi-Fi / Wi-Fi + IR)': no maintainers.
-Skip 'oppo F1 (International)': Storage only: '16 GB'
-Skip 'motorola Moto G': no maintainers.
-Error parsing battery info from 'oppo Find 7a/s': {'Find 7a': {'removable': True, 'capacity': 2800, 'tech': 'Li-Po'}} {'Find 7s': {'removable': True, 'capacity': 3000, 'tech': 'Li-Po'}}
-Skip 'asus Nexus 7 (Wi-Fi, 2013 version)': no maintainers.
-Skip 'htc Nexus 9 (Wi-Fi)': no maintainers.
-Skip 'htc Nexus 9 (LTE)': no maintainers.
-Skip 'nvidia Shield Android TV': no maintainers.
-Skip 'asus Nexus Player': no maintainers.
-Skip 'lge G2 Mini': no maintainers.
-Skip 'motorola Moto X': no maintainers.
-Skip 'bq Aquaris X5 Plus': no maintainers.
-Skip 'samsung Galaxy Tab E 9.6 (WiFi)': no maintainers.
-Skip 'samsung Galaxy Tab E 8.0 LTE (Sprint)': no maintainers.
-Skip 'samsung Galaxy Tab S2 9.7 (LTE)': no maintainers.
-Skip 'samsung Galaxy Tab S2 9.7 (Wi-Fi)': no maintainers.
-Skip 'lge G4 (T-Mobile)': no maintainers.
-Skip 'lge G4 (International)': no maintainers.
-Skip 'lge G6 (EU Unlocked)': no maintainers.
-Skip 'samsung Galaxy Note 3 (International 3G)': no maintainers.
-Skip 'lge Nexus 5': no maintainers.
-Skip 'motorola Moto G4 Play': no maintainers.
-Skip 'sony Xperia TX': no maintainers.
-Skip 'samsung Galaxy S7 Edge': no maintainers.
-Skip 'samsung Galaxy S7': no maintainers.
-Skip 'htc One A9': no maintainers.
-Skip 'htc One M9 (GSM)': no maintainers.
-Skip 'htc One M9 (Verizon)': no maintainers.
-Skip 'sony Xperia SP': no maintainers.
-Skip 'xiaomi Mi Max': no maintainers.
-Skip 'samsung Galaxy S II': no maintainers.
-Skip 'samsung Galaxy S III (International)': no maintainers.
-Skip 'samsung Galaxy S III (LTE / International)': no maintainers.
-Skip 'xiaomi Redmi 3/Prime': no maintainers.
-Skip 'sony Xperia Z3+': no maintainers.
-Skip 'samsung Galaxy S4 Active': RAM only: '2 GB'
-Skip 'lge G3 S': no maintainers.
-Skip 'lge G3 Beat': no maintainers.
-Skip 'yu Yunique': no maintainers.
-Skip 'zte AT&T Trek 2 HD': no maintainers.
-Skip 'samsung Galaxy S4 (SGH-I337)': RAM only: '2 GB'
-Skip 'samsung Galaxy S4 (SCH-R970, SPH-L720)': RAM only: '2 GB'
-Skip 'samsung Galaxy S4 (SCH-I545)': RAM only: '2 GB'
-Skip 'samsung Galaxy S4 (GT-I9505/G, SGH-I337M, SGH-M919)': RAM only: '2 GB'
-Skip 'samsung Galaxy S4 Value Edition (GT-I9515/L)': RAM only: '2 GB'
-Skip 'samsung Galaxy S5 (International 3G)': no maintainers.
-Skip 'sony Xperia Z4 Tablet LTE': no maintainers.
-Skip 'sony Xperia Z4 Tablet WiFi': no maintainers.
-Skip 'samsung Galaxy S5 Plus': RAM only: '2 GB'
-Skip 'xiaomi Redmi Note 3': no maintainers.
-Skip 'lenovo Vibe Z2 Pro': no maintainers.
-Skip 'wileyfox Storm': no maintainers.
-Skip 'huawei Honor 5X': RAM only: '2 GB'
-Skip 'samsung Galaxy Tab S 8.4 Wi-Fi': no maintainers.
-Skip 'samsung Galaxy S5 LTE (G900AZ/F/M/R4/R7/T/V/W8,S902L)': RAM only: '2 GB'
-Skip 'samsung Galaxy S5 Active': RAM only: '2 GB'
-Skip 'samsung Galaxy S5 LTE (G9006V/8V)': RAM only: '2 GB'
-Skip 'samsung Galaxy S5 LTE Duos (G9006W/8W)': RAM only: '2 GB'
-Skip 'samsung Galaxy S5 LTE Duos (G900FD/MD)': RAM only: '2 GB'
-Skip 'samsung Galaxy S5 LTE (G900I/P)': RAM only: '2 GB'
-Skip 'samsung Galaxy S5 LTE (SCL23)': RAM only: '2 GB'
-Skip 'samsung Galaxy S5 LTE (G900K/L/S)': RAM only: '2 GB'
-Skip 'samsung Galaxy S5 Sport': no maintainers.
-Skip 'samsung Galaxy S4 LTE-A (GT-I9506)': no maintainers.
-Skip 'yu Yuphoria': no maintainers.
-Skip 'xiaomi Mi 4c': no maintainers.
-Skip 'samsung Galaxy Tab 3 7.0 LTE': no maintainers.
-Skip 'samsung Galaxy Note 10.1 2014 (LTE)': no maintainers.
-Skip 'motorola Moto X Play': no maintainers.
-Skip 'lge K10': no maintainers.
-Skip 'htc One (GSM)': no maintainers.
-Skip 'htc One (Verizon)': no maintainers.
-Skip 'htc One (M8)': RAM only: '2 GB'
-Skip 'htc One (M8) Dual SIM': RAM only: '2 GB'
-Skip 'samsung Galaxy Nexus GSM': no maintainers.
-Skip 'lge Nexus 4': no maintainers.
-Skip 'samsung Nexus 10': no maintainers.
-Skip 'motorola Droid 4': no maintainers.
-Skip 'motorola Moto G3 Turbo': no maintainers.
-Skip 'xiaomi Redmi Note 4': no maintainers.
-Skip 'sony Xperia T': no maintainers.
-Skip 'samsung Galaxy Tab Pro 8.4': no maintainers.
-Skip 'huawei Ascend Mate 2 4G': no maintainers.
-Skip 'samsung Galaxy Note 10.1 Wi-Fi (2014)': no maintainers.
-Skip 'samsung Galaxy Tab PRO 10.1': no maintainers.
-Skip 'oppo N3': no maintainers.
-Skip 'samsung Galaxy Note 8.0 (GSM)': no maintainers.
-Skip 'samsung Galaxy Note 8.0 (Wi-Fi)': no maintainers.
-Skip 'samsung Galaxy Note 8.0 (LTE)': no maintainers.
-Skip 'sony Xperia M': no maintainers.
-Skip 'nubia Z9 Max': no maintainers.
-Skip 'sony Xperia ZL': no maintainers.
-Error parsing battery info from 'oneplus 3 / 3T': {3: {'removable': False, 'capacity': 3000, 'tech': 'Li-Ion'}} {'3T': {'removable': False, 'capacity': 3400, 'tech': 'Li-Ion'}}
-Skip 'oneplus X': no maintainers.
-Skip 'motorola Moto G 2015': no maintainers.
-Skip 'motorola Moto E 2015': no maintainers.
-Skip 'bq Aquaris X5': no maintainers.
-Skip 'ark Benefit A3': no maintainers.
-Skip 'motorola Moto G 4G': no maintainers.
-Skip 'bq Aquaris M5': no maintainers.
-Skip 'htc 10': no maintainers.
-Skip 'sony Xperia Tablet Z LTE': no maintainers.
-Skip 'sony Xperia Tablet Z Wi-Fi': no maintainers.
-Skip 'nvidia Shield Portable': no maintainers.
-Skip 'samsung Galaxy S5 Neo': RAM only: '2 GB'
-Skip 'google Android One 2nd Gen': no maintainers.
-Skip 'samsung Galaxy S4 Mini (International 3G)': no maintainers.
-Skip 'samsung Galaxy S4 Mini (International Dual SIM)': no maintainers.
-Skip 'samsung Galaxy S4 Mini (International LTE)': no maintainers.
-Skip 'nvidia Shield Tablet': no maintainers.
-Skip 'motorola Droid RAZR/RAZR MAXX (CDMA)': no maintainers.
-Skip 'sony Xperia Z5': no maintainers.
-Skip 'motorola Moto E 2015 LTE': no maintainers.
-Skip 'sony Xperia Z5 Compact': no maintainers.
-Skip 'samsung Galaxy Note 2 (LTE)': no maintainers.
-Skip 'htc One Max (GSM)': no maintainers.
-Skip 'htc One Max (Verizon)': no maintainers.
-Skip 'sony Xperia L': no maintainers.
-Skip 'motorola Droid Bionic': no maintainers.
-Skip 'bq Aquaris U Plus': no maintainers.
-Skip 'motorola Moto G 2014 LTE': no maintainers.
-Skip 'xiaomi Mi A1': no maintainers.
-Skip 'motorola Moto G 2014': no maintainers.
-Skip 'yu Yureka / Yureka Plus': no maintainers.
-Skip 'samsung Galaxy Nexus LTE (Verizon)': no maintainers.
-Skip 'samsung Galaxy Nexus LTE (Sprint)': no maintainers.
-Skip 'sony Xperia V': no maintainers.
-Skip 'zte Axon 7 Mini': no maintainers.
-Skip 'motorola RAZR/RAZR MAXX (GSM)': no maintainers.
-Skip 'lge G6 (US Unlocked)': no maintainers.
-Skip 'samsung Galaxy Note Pro 12.2 Wi-Fi': no maintainers.
-Skip 'lge G Pad 7.0 WiFi': no maintainers.
-Skip 'lge G Pad 7.0 (LTE)': no maintainers.
-Skip 'lge G Pad 8.0 (Wi-Fi)': no maintainers.
-Skip 'lge G Pad 8.3': no maintainers.
-Skip 'lge G Pad X (T-Mobile)': no maintainers.
-Skip 'bq Aquaris E5 4G / Aquaris E5s': no maintainers.
-Skip 'motorola Moto X 2014': RAM only: '2 GB'
-Skip 'xiaomi Redmi Note 7 Pro': no maintainers.
-Skip 'lge Optimus L70': no maintainers.
-Skip 'lge L90': no maintainers.
-Skip 'xiaomi Redmi Note 5 Pro': no maintainers.
-Skip 'wingtech Redmi 2': no maintainers.
-Skip 'motorola Photon Q 4G LTE': no maintainers.
-Skip 'sony Xperia Z': no maintainers.
-Skip 'sony Xperia Z3 Compact': RAM only: '2 GB'
-Error parsing battery info from 'asus Zenfone 3': {'ZE520KL': {'removable': False, 'capacity': 2600, 'tech': 'Li-Po'}} {'ZE552KL': {'removable': False, 'capacity': 3000, 'tech': 'Li-Ion'}}
-Skip 'samsung Galaxy S6': no maintainers.
-Skip 'samsung Galaxy S6 Edge': no maintainers.
+INFO:__main__:Generate csv on 2020-05-01 14:24:14.568410+0000
+INFO:__main__:Skip 'Huawei honor 5x': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s4 (gt-i9505/g, sgh-i337m, sgh-m919)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s4 (sch-i545)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s4 (sch-r970, sph-l720)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s4 (sgh-i337)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s4 active': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s4 value edition (gt-i9515/l)': Only '2 GB' RAM
+INFO:__main__:Skip 'Motorola moto x 2014': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy a3 (2016)': Only '16 GB' Storage
+INFO:__main__:Skip 'Samsung galaxy a5 (2016)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 neo': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 plus': Only '2 GB' RAM
+INFO:__main__:Skip 'Fairphone fp2': Only '2 GB' RAM
+INFO:__main__:Skip 'Htc one (m8)': Only '2 GB' RAM
+INFO:__main__:Skip 'Htc one (m8) dual sim': Only '2 GB' RAM
+INFO:__main__:Skip 'Lge g2 (at&t)': Only '2 GB' RAM
+INFO:__main__:Skip 'Lge g2 (canadian)': Only '2 GB' RAM
+INFO:__main__:Skip 'Lge g2 (international)': Only '2 GB' RAM
+INFO:__main__:Skip 'Lge g2 (t-mobile)': Only '2 GB' RAM
+INFO:__main__:Skip 'Oppo f1 (international)': Only '16 GB' Storage
+INFO:__main__:Skip 'Samsung galaxy s5 active': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 lte (g9006v/8v)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 lte (g900az/f/m/r4/r7/t/v/w8,s902l)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 lte (g900i/p)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 lte (g900k/l/s)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 lte (scl23)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 lte duos (g9006w/8w)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 lte duos (g900fd/md)': Only '2 GB' RAM
+INFO:__main__:Skip 'Sony xperia z3 compact': Only '2 GB' RAM
+INFO:__main__:Skip 'Wileyfox swift': Only '2 GB' RAM
+INFO:__main__:Skip 'Ark benefit a3': no maintainers.
+INFO:__main__:Skip 'Asus nexus 7 (lte, 2013 version)': no maintainers.
+INFO:__main__:Skip 'Asus nexus 7 (wi-fi, 2013 version)': no maintainers.
+INFO:__main__:Skip 'Asus nexus player': no maintainers.
+INFO:__main__:Skip 'Asus zenfone 2 (1080p)': no maintainers.
+INFO:__main__:Skip 'Asus zenfone 2 (720p)': no maintainers.
+INFO:__main__:Skip 'Asus zenfone 2 (ze500cl)': no maintainers.
+INFO:__main__:Skip 'Asus zenfone 2 laser (720p)': no maintainers.
+INFO:__main__:Skip 'Asus zenfone 2 laser/selfie (1080p)': no maintainers.
+INFO:__main__:Skip 'Asus zenpad 8.0 (z380kl)': no maintainers.
+INFO:__main__:Skip 'Bq aquaris e5 4g / aquaris e5s': no maintainers.
+INFO:__main__:Skip 'Bq aquaris m5': no maintainers.
+INFO:__main__:Skip 'Bq aquaris u': no maintainers.
+INFO:__main__:Skip 'Bq aquaris u plus': no maintainers.
+INFO:__main__:Skip 'Bq aquaris x5': no maintainers.
+INFO:__main__:Skip 'Bq aquaris x5 plus': no maintainers.
+INFO:__main__:Skip 'Google android one 2nd gen': no maintainers.
+INFO:__main__:Skip 'Google pixel c': no maintainers.
+INFO:__main__:Skip 'Htc 10': no maintainers.
+INFO:__main__:Skip 'Htc nexus 9 (lte)': no maintainers.
+INFO:__main__:Skip 'Htc nexus 9 (wi-fi)': no maintainers.
+INFO:__main__:Skip 'Htc one (gsm)': no maintainers.
+INFO:__main__:Skip 'Htc one (verizon)': no maintainers.
+INFO:__main__:Skip 'Htc one a9': no maintainers.
+INFO:__main__:Skip 'Htc one m9 (gsm)': no maintainers.
+INFO:__main__:Skip 'Htc one m9 (verizon)': no maintainers.
+INFO:__main__:Skip 'Htc one max (gsm)': no maintainers.
+INFO:__main__:Skip 'Htc one max (verizon)': no maintainers.
+INFO:__main__:Skip 'Huawei ascend mate 2 4g': no maintainers.
+INFO:__main__:Skip 'Huawei honor 4/4x (unified)': no maintainers.
+INFO:__main__:Skip 'Huawei honor 4x (china telecom)': no maintainers.
+INFO:__main__:Skip 'Huawei nexus 6p': no maintainers.
+INFO:__main__:Skip 'Lenovo vibe k5 / k5 plus': no maintainers.
+INFO:__main__:Skip 'Lenovo vibe z2 pro': no maintainers.
+INFO:__main__:Skip 'Lge g pad 7.0 (lte)': no maintainers.
+INFO:__main__:Skip 'Lge g pad 7.0 wifi': no maintainers.
+INFO:__main__:Skip 'Lge g pad 8.0 (wi-fi)': no maintainers.
+INFO:__main__:Skip 'Lge g pad 8.3': no maintainers.
+INFO:__main__:Skip 'Lge g pad x (t-mobile)': no maintainers.
+INFO:__main__:Skip 'Lge g2 mini': no maintainers.
+INFO:__main__:Skip 'Lge g3 beat': no maintainers.
+INFO:__main__:Skip 'Lge g3 s': no maintainers.
+INFO:__main__:Skip 'Lge g4 (international)': no maintainers.
+INFO:__main__:Skip 'Lge g4 (t-mobile)': no maintainers.
+INFO:__main__:Skip 'Lge g6 (eu unlocked)': no maintainers.
+INFO:__main__:Skip 'Lge g6 (us unlocked)': no maintainers.
+INFO:__main__:Skip 'Lge k10': no maintainers.
+INFO:__main__:Skip 'Lge l90': no maintainers.
+INFO:__main__:Skip 'Lge nexus 4': no maintainers.
+INFO:__main__:Skip 'Lge nexus 5': no maintainers.
+INFO:__main__:Skip 'Lge nexus 5x': no maintainers.
+INFO:__main__:Skip 'Lge optimus l70': no maintainers.
+INFO:__main__:Skip 'Motorola droid 4': no maintainers.
+INFO:__main__:Skip 'Motorola droid bionic': no maintainers.
+INFO:__main__:Skip 'Motorola droid razr/razr maxx (cdma)': no maintainers.
+INFO:__main__:Skip 'Motorola moto e': no maintainers.
+INFO:__main__:Skip 'Motorola moto e 2015': no maintainers.
+INFO:__main__:Skip 'Motorola moto e 2015 lte': no maintainers.
+INFO:__main__:Skip 'Motorola moto g': no maintainers.
+INFO:__main__:Skip 'Motorola moto g 2014': no maintainers.
+INFO:__main__:Skip 'Motorola moto g 2014 lte': no maintainers.
+INFO:__main__:Skip 'Motorola moto g 2015': no maintainers.
+INFO:__main__:Skip 'Motorola moto g 4g': no maintainers.
+INFO:__main__:Skip 'Motorola moto g3 turbo': no maintainers.
+INFO:__main__:Skip 'Motorola moto g4': no maintainers.
+INFO:__main__:Skip 'Motorola moto g4 play': no maintainers.
+INFO:__main__:Skip 'Motorola moto x': no maintainers.
+INFO:__main__:Skip 'Motorola moto x play': no maintainers.
+INFO:__main__:Skip 'Motorola moto x pure edition/style (2015)': no maintainers.
+INFO:__main__:Skip 'Motorola moto z play': no maintainers.
+INFO:__main__:Skip 'Motorola moto z2 play': no maintainers.
+INFO:__main__:Skip 'Motorola photon q 4g lte': no maintainers.
+INFO:__main__:Skip 'Motorola razr/razr maxx (gsm)': no maintainers.
+INFO:__main__:Skip 'Nubia z9 max': no maintainers.
+INFO:__main__:Skip 'Nvidia shield android tv': no maintainers.
+INFO:__main__:Skip 'Nvidia shield portable': no maintainers.
+INFO:__main__:Skip 'Nvidia shield tablet': no maintainers.
+INFO:__main__:Skip 'Oneplus x': no maintainers.
+INFO:__main__:Skip 'Oppo n3': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy nexus gsm': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy nexus lte (sprint)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy nexus lte (verizon)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy note 10.1 2014 (lte)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy note 10.1 wi-fi (2014)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy note 2 (lte)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy note 3 (international 3g)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy note 8.0 (gsm)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy note 8.0 (lte)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy note 8.0 (wi-fi)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy note pro 12.2 wi-fi': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s ii': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s iii (at&t)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s iii (international)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s iii (lte / international)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s iii (sprint)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s iii (t-mobile)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s iii (verizon)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s4 lte-a (gt-i9506)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s4 mini (international 3g)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s4 mini (international dual sim)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s4 mini (international lte)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s5 (international 3g)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s5 sport': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s6': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s6 edge': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s7': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy s7 edge': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab 2 7.0 / tab 2 10.1 (gsm)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab 2 7.0 / tab 2 10.1 (wi-fi / wi-fi + ir)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab 3 7.0 lte': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab e 8.0 lte (sprint)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab e 9.6 (wifi)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab pro 10.1': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab pro 8.4': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab s 10.5 lte': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab s 10.5 wi-fi': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab s 8.4 wi-fi': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab s2 9.7 (lte)': no maintainers.
+INFO:__main__:Skip 'Samsung galaxy tab s2 9.7 (wi-fi)': no maintainers.
+INFO:__main__:Skip 'Samsung nexus 10': no maintainers.
+INFO:__main__:Skip 'Sony xperia l': no maintainers.
+INFO:__main__:Skip 'Sony xperia m': no maintainers.
+INFO:__main__:Skip 'Sony xperia sp': no maintainers.
+INFO:__main__:Skip 'Sony xperia t': no maintainers.
+INFO:__main__:Skip 'Sony xperia tablet z lte': no maintainers.
+INFO:__main__:Skip 'Sony xperia tablet z wi-fi': no maintainers.
+INFO:__main__:Skip 'Sony xperia tx': no maintainers.
+INFO:__main__:Skip 'Sony xperia v': no maintainers.
+INFO:__main__:Skip 'Sony xperia z': no maintainers.
+INFO:__main__:Skip 'Sony xperia z3+': no maintainers.
+INFO:__main__:Skip 'Sony xperia z4 tablet lte': no maintainers.
+INFO:__main__:Skip 'Sony xperia z4 tablet wifi': no maintainers.
+INFO:__main__:Skip 'Sony xperia z5': no maintainers.
+INFO:__main__:Skip 'Sony xperia z5 compact': no maintainers.
+INFO:__main__:Skip 'Sony xperia zl': no maintainers.
+INFO:__main__:Skip 'Sony xperia zr': no maintainers.
+INFO:__main__:Skip 'Wileyfox storm': no maintainers.
+INFO:__main__:Skip 'Wingtech redmi 2': no maintainers.
+INFO:__main__:Skip 'Xiaomi mi 3 / mi 4': no maintainers.
+INFO:__main__:Skip 'Xiaomi mi 4c': no maintainers.
+INFO:__main__:Skip 'Xiaomi mi a1': no maintainers.
+INFO:__main__:Skip 'Xiaomi mi max': no maintainers.
+INFO:__main__:Skip 'Xiaomi redmi 1s': no maintainers.
+INFO:__main__:Skip 'Xiaomi redmi 3/prime': no maintainers.
+INFO:__main__:Skip 'Xiaomi redmi note 3': no maintainers.
+INFO:__main__:Skip 'Xiaomi redmi note 4': no maintainers.
+INFO:__main__:Skip 'Xiaomi redmi note 5 pro': no maintainers.
+INFO:__main__:Skip 'Xiaomi redmi note 7 pro': no maintainers.
+INFO:__main__:Skip 'Yu yunique': no maintainers.
+INFO:__main__:Skip 'Yu yuphoria': no maintainers.
+INFO:__main__:Skip 'Yu yureka / yureka plus': no maintainers.
+INFO:__main__:Skip 'Zte at&t trek 2 hd': no maintainers.
+INFO:__main__:Skip 'Zte axon 7': no maintainers.
+INFO:__main__:Skip 'Zte axon 7 mini': no maintainers.
