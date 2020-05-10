@@ -19,7 +19,7 @@ Lge,G3 (T-Mobile),2014-06,5.5,2/3 GB,16/32 GB,True,2,d851,,Qualcomm MSM8974AC Sn
 Lge,G3 (Verizon),2014-06,5.5,3 GB,16/32 GB,True,2,vs985,,Qualcomm MSM8974AC Snapdragon 801,"{16, 17, 14, 15}",2020-03-25,https://wiki.lineageos.org/devices/vs985
 Lge,G5 (International),2016-02,5.3,4 GB,32 GB,True,2,h850,,Qualcomm MSM8996 Snapdragon 820,"{17, 14}",2020-03-25,https://wiki.lineageos.org/devices/h850
 Lge,G5 (T-Mobile),2016-02,5.3,4 GB,32 GB,True,2,h830,,Qualcomm MSM8996 Snapdragon 820,"{17, 14}",2020-03-25,https://wiki.lineageos.org/devices/h830
-Lge,G5 (US Unlocked),2016-02,5.3,4 GB,32 GB,True,2,rs988,,Qualcomm MSM8996 Snapdragon 820,"{17, 15}",2020-03-25,https://wiki.lineageos.org/devices/rs988
+Lge,G5 (US Unlocked),2016-02,5.3,4 GB,32 GB,True,2,rs988,,Qualcomm MSM8996 Snapdragon 820,"{17, 15}",2020-05-03,https://wiki.lineageos.org/devices/rs988
 Lge,V20 (AT&T),2016-10,5.7,4 GB,64 GB,True,2,h910,,Qualcomm MSM8996 Snapdragon 820,"{17, 14}",2020-03-25,https://wiki.lineageos.org/devices/h910
 Lge,V20 (Global),2016-10,5.7,4 GB,64 GB,True,2,h990,,Qualcomm MSM8996 Snapdragon 820,"{17, 14}",2020-03-25,https://wiki.lineageos.org/devices/h990
 Lge,V20 (Sprint),2016-10,5.7,4 GB,64 GB,True,2,ls997,,Qualcomm MSM8996 Snapdragon 820,"{17, 14}",2020-03-25,https://wiki.lineageos.org/devices/ls997
@@ -27,9 +27,10 @@ Lge,V20 (T-Mobile),2016-10,5.7,4 GB,64 GB,True,2,h918,,Qualcomm MSM8996 Snapdrag
 Lge,V20 (US Unlocked),2016-10,5.7,4 GB,64 GB,True,2,us996,,Qualcomm MSM8996 Snapdragon 820,{17},2020-03-25,https://wiki.lineageos.org/devices/us996
 Lge,V20 (Verizon),2016-10,5.7,4 GB,64 GB,True,2,vs995,,Qualcomm MSM8996 Snapdragon 820,"{17, 14}",2020-03-25,https://wiki.lineageos.org/devices/vs995
 Moto,Nexus 6,2014-10-29,5.96,3 GB,32/64 GB,False,2,shamu,,Qualcomm APQ8084 Snapdragon 805,"{16, 17, 14, 15}",2020-04-07,https://wiki.lineageos.org/devices/shamu
+Motorola,Moto G7 Plus,2019-02,6.2,4 GB,64 GB,False,2,lake,"XT1965-2,XT1965-3,XT1965-6,XT1965-T",Qualcomm SDM636 Snapdragon 636,{17},2020-05-06,https://wiki.lineageos.org/devices/lake
 Motorola,Moto Z2 Force,2017-07,5.5,"4 GB, 6 GB","64 GB, 128 GB (UFS 2.1 2-LANE)",False,2,nash,"XT1789-02,XT1789-03,XT1789-04,XT1789-05,XT1789-06,XT1789-07",Qualcomm MSM8998 Snapdragon 835,"{16, 17, 15}",2020-03-31,https://wiki.lineageos.org/devices/nash
 Oneplus,6,2018-04,6.28,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,False,2,enchilada,,Qualcomm SDM845 Snapdragon 845,"{16, 17}",2020-03-31,https://wiki.lineageos.org/devices/enchilada
-Oneplus,7 Pro,2019-05,6.67,6/8/12GB GB LPDDR4X,128/256 GB UFS2.1,False,2,guacamole,,Qualcomm SM8150 Snapdragon 855,"{16, 17}",2020-04-07,https://wiki.lineageos.org/devices/guacamole
+Oneplus,7 Pro,2019-05,6.67,6/8/12GB GB LPDDR4X,128/256 GB UFS3.0,False,2,guacamole,,Qualcomm SM8150 Snapdragon 855,"{16, 17}",2020-05-05,https://wiki.lineageos.org/devices/guacamole
 Razer,Phone,2017-11,5.7,8 GB,64 GB,False,2,cheryl,,Qualcomm MSM8998 Snapdragon 835,"{16, 17}",2020-03-31,https://wiki.lineageos.org/devices/cheryl
 Samsung,Galaxy Tab S5e (Wi-Fi),2019,10.5,4/6 GB,64/128 GB,False,2,gts4lvwifi,SM-T720,Qualcomm SDM670 Snapdragon 670,{17},2020-03-31,https://wiki.lineageos.org/devices/gts4lvwifi
 Xiaomi,Mi 6,2017-04,5.15,4/6 GB,64/128 GB,False,2,sagit,,Qualcomm MSM8998 Snapdragon 835,"{16, 17, 15}",2020-03-31,https://wiki.lineageos.org/devices/sagit
@@ -37,7 +38,6 @@ Xiaomi,Mi MIX 2,2017-09,5.99,6/8 GB,64/128/256 GB,False,2,chiron,,Qualcomm MSM89
 Xiaomi,Poco F1,2018-08,6.18,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,False,2,beryllium,,Qualcomm SDM845 Snapdragon 845,"{16, 17}",2020-03-31,https://wiki.lineageos.org/devices/beryllium
 Yandex,Phone,2018-12,5.65,4 GB,64 GB,False,2,Amber,,Qualcomm SDM630 Snapdragon 630,"{16, 17}",2020-04-12,https://wiki.lineageos.org/devices/Amber
 Motorola,Moto G6 Plus,2018-05,5.2,4/6 GB,64/128 GB,False,1,evert,"XT1926-2,XT1926-3,XT1926-5,XT1926-6,XT1926-7,XT1926-8,XT1926-9",Qualcomm SDM630 Snapdragon 630,{17},2020-04-10,https://wiki.lineageos.org/devices/evert
-Motorola,Moto G7 Plus,2019-02,6.2,4 GB,64 GB,False,1,lake,"XT1965-2,XT1965-3,XT1965-6",Qualcomm SDM636 Snapdragon 636,{17},2020-03-31,https://wiki.lineageos.org/devices/lake
 Motorola,Moto One Power,2018-10-10,6.14,"4 GB, 6 GB",64 GB,False,1,chef,"XT1942-1,XT1942-2",Qualcomm SDM636 Snapdragon 636,{17},2020-03-31,https://wiki.lineageos.org/devices/chef
 Motorola,Moto X4,2017-10,5.2,3/4/6 GB,32/64/128 GB,False,1,payton,,Qualcomm SDM630 Snapdragon 630,"{16, 17, 15}",2020-04-10,https://wiki.lineageos.org/devices/payton
 Nubia,Z17,2017-06,5.5,6/8 GB,64/128 GB UFS 2.1,False,1,nx563j,,Qualcomm MSM8998 Snapdragon 835,"{16, 17}",2020-04-19,https://wiki.lineageos.org/devices/nx563j
@@ -50,6 +50,11 @@ Sony,Xperia 10,2019-02,6,3/4 GB,64 GB,False,1,kirin,"I3113,I3123,I4113,I4193",Qu
 Sony,Xperia 10 Plus,2019-02,6.5,4/6 GB,64 GB,False,1,mermaid,"I3213,I3223,I4213,I4293",Qualcomm SDM636 Snapdragon 636,{17},2020-04-02,https://wiki.lineageos.org/devices/mermaid
 Sony,Xperia XA2 Plus,2018-07,6.0,4/6 GB,32 GB,False,1,voyager,"H3413,H4413,H4493",Qualcomm SDM630 Snapdragon 630,{17},2020-04-20,https://wiki.lineageos.org/devices/voyager
 Sony,Xperia XA2 Ultra,2018-02,6,4 GB,32 GB,False,1,discovery,"H3213,H4213,H4233,H3223",Qualcomm SDM630 Snapdragon 630,"{16, 17, 15}",2020-04-02,https://wiki.lineageos.org/devices/discovery
+Xiaomi,Mi 6X,2018-04,5.99,4/6 GB,32/64/128 GB,False,1,wayne,,Qualcomm SDM660 Snapdragon 660,{17},2020-05-05,https://wiki.lineageos.org/devices/wayne
 Xiaomi,Mi 8,2018-07,6.21,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,False,1,dipper,,Qualcomm SDM845 Snapdragon 845,"{16, 17}",2020-03-31,https://wiki.lineageos.org/devices/dipper
+Xiaomi,Mi A2,2018-07,5.99,4/6 GB,32/64/128 GB,False,1,jasmine_sprout,,Qualcomm SDM660 Snapdragon 660,{17},2020-05-05,https://wiki.lineageos.org/devices/jasmine_sprout
 Xiaomi,Mi MIX 2S,2018-04,5.99,6/8 GB LPDDR4X,64/128/256 GB UFS2.1,False,1,polaris,,Qualcomm SDM845 Snapdragon 845,"{16, 17}",2020-03-31,https://wiki.lineageos.org/devices/polaris
+Xiaomi,Mi Note 3,2017-09,5.5,4/6 GB,64/128 GB,False,1,jason,,Qualcomm SDM660 Snapdragon 660,"{16, 17, 15}",2020-05-05,https://wiki.lineageos.org/devices/jason
+Xiaomi,Redmi Note 6 Pro,2018-10,6.26,3/4/6 GB,32/64 GB,False,1,twolip,,Qualcomm SDM660 Snapdragon 636,{17},2020-05-05,https://wiki.lineageos.org/devices/twolip
+Xiaomi,Redmi Note 7,2019-01,6.3,3/4/6 GB,32/64/128 GB,False,1,lavender,,Qualcomm SDM660 Snapdragon 660,{17},2020-05-05,https://wiki.lineageos.org/devices/lavender
 Zuk,Z2 Plus,2016-06,5.0,3 GB LPDDR4 / 4 GB LPDDR4,32 / 64 GB,False,1,z2_plus,,Qualcomm MSM8996 Snapdragon 820,"{16, 17}",2020-03-31,https://wiki.lineageos.org/devices/z2_plus
