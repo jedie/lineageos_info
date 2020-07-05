@@ -32,11 +32,11 @@ A list of skipped device is: [[https://github.com/jedie/lineageos_info/blob/mast
 * [[https://wiki.lineageos.org/devices/zangyapro|Bq aquaris x2 pro]] (3 maintainers)
 * [[https://wiki.lineageos.org/devices/kiwi|Huawei honor 5x]] (3 maintainers)
 * [[https://wiki.lineageos.org/devices/river|Motorola moto g7]] (3 maintainers)
+* [[https://wiki.lineageos.org/devices/victara|Motorola moto x 2014]] (3 maintainers)
 * [[https://wiki.lineageos.org/devices/ether|Nextbit robin]] (3 maintainers)
-* [[https://wiki.lineageos.org/devices/RMX1851|Realme 3 pro]] (3 maintainers)
 
-Last LineageOS wiki page update: 2020-05-06
-Generated: 2020-05-10
+Last LineageOS wiki page update: 2020-07-02
+Generated: 2020-07-05
 
 == tryout
 
