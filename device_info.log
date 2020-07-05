@@ -1,12 +1,15 @@
-INFO:__main__:Generate csv on 2020-05-10 16:32:26.759208+0000
+INFO:__main__:Generate csv on 2020-07-05 08:20:32.177100+0000
 INFO:__main__:Skip 'Huawei honor 5x': Only '2 GB' RAM
+INFO:__main__:Skip 'Motorola moto x 2014': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy j7 (2015)': Only '16 GB' Storage
 INFO:__main__:Skip 'Samsung galaxy s4 (gt-i9505/g, sgh-i337m, sgh-m919)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s4 (sch-i545)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s4 (sch-r970, sph-l720)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s4 (sgh-i337)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s4 active': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s4 value edition (gt-i9515/l)': Only '2 GB' RAM
-INFO:__main__:Skip 'Motorola moto x 2014': Only '2 GB' RAM
+INFO:__main__:Skip 'Motorola moto e 2015 lte': Only '1 GB' RAM
+INFO:__main__:Skip 'Motorola moto x play': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy a3 (2016)': Only '16 GB' Storage
 INFO:__main__:Skip 'Samsung galaxy a5 (2016)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 neo': Only '2 GB' RAM
@@ -18,7 +21,10 @@ INFO:__main__:Skip 'Lge g2 (at&t)': Only '2 GB' RAM
 INFO:__main__:Skip 'Lge g2 (canadian)': Only '2 GB' RAM
 INFO:__main__:Skip 'Lge g2 (international)': Only '2 GB' RAM
 INFO:__main__:Skip 'Lge g2 (t-mobile)': Only '2 GB' RAM
+INFO:__main__:Skip 'Motorola moto g3 turbo': Only '2 GB' RAM
+INFO:__main__:Skip 'Motorola moto g4 play': Only '16 GB' Storage
 INFO:__main__:Skip 'Oppo f1 (international)': Only '16 GB' Storage
+INFO:__main__:Skip 'Samsung galaxy grand 2 duos': Only '8 GB' Storage
 INFO:__main__:Skip 'Samsung galaxy s5 active': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 lte (g9006v/8v)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 lte (g900az/f/m/r4/r7/t/v/w8,s902l)': Only '2 GB' RAM
@@ -86,17 +92,12 @@ INFO:__main__:Skip 'Motorola droid bionic': no maintainers.
 INFO:__main__:Skip 'Motorola droid razr/razr maxx (cdma)': no maintainers.
 INFO:__main__:Skip 'Motorola moto e': no maintainers.
 INFO:__main__:Skip 'Motorola moto e 2015': no maintainers.
-INFO:__main__:Skip 'Motorola moto e 2015 lte': no maintainers.
 INFO:__main__:Skip 'Motorola moto g': no maintainers.
 INFO:__main__:Skip 'Motorola moto g 2014': no maintainers.
 INFO:__main__:Skip 'Motorola moto g 2014 lte': no maintainers.
-INFO:__main__:Skip 'Motorola moto g 2015': no maintainers.
 INFO:__main__:Skip 'Motorola moto g 4g': no maintainers.
-INFO:__main__:Skip 'Motorola moto g3 turbo': no maintainers.
 INFO:__main__:Skip 'Motorola moto g4': no maintainers.
-INFO:__main__:Skip 'Motorola moto g4 play': no maintainers.
 INFO:__main__:Skip 'Motorola moto x': no maintainers.
-INFO:__main__:Skip 'Motorola moto x play': no maintainers.
 INFO:__main__:Skip 'Motorola moto x pure edition/style (2015)': no maintainers.
 INFO:__main__:Skip 'Motorola moto z play': no maintainers.
 INFO:__main__:Skip 'Motorola moto z2 play': no maintainers.
@@ -108,6 +109,7 @@ INFO:__main__:Skip 'Nvidia shield portable': no maintainers.
 INFO:__main__:Skip 'Nvidia shield tablet': no maintainers.
 INFO:__main__:Skip 'Oneplus x': no maintainers.
 INFO:__main__:Skip 'Oppo n3': no maintainers.
+INFO:__main__:Skip 'Realme 3 pro': no maintainers.
 INFO:__main__:Skip 'Samsung galaxy nexus gsm': no maintainers.
 INFO:__main__:Skip 'Samsung galaxy nexus lte (sprint)': no maintainers.
 INFO:__main__:Skip 'Samsung galaxy nexus lte (verizon)': no maintainers.
@@ -166,16 +168,13 @@ INFO:__main__:Skip 'Sony xperia z5 compact': no maintainers.
 INFO:__main__:Skip 'Sony xperia zl': no maintainers.
 INFO:__main__:Skip 'Sony xperia zr': no maintainers.
 INFO:__main__:Skip 'Wileyfox storm': no maintainers.
-INFO:__main__:Skip 'Wingtech redmi 2': no maintainers.
 INFO:__main__:Skip 'Xiaomi mi 3 / mi 4': no maintainers.
 INFO:__main__:Skip 'Xiaomi mi 4c': no maintainers.
-INFO:__main__:Skip 'Xiaomi mi a1': no maintainers.
 INFO:__main__:Skip 'Xiaomi mi max': no maintainers.
 INFO:__main__:Skip 'Xiaomi redmi 1s': no maintainers.
 INFO:__main__:Skip 'Xiaomi redmi 3/prime': no maintainers.
 INFO:__main__:Skip 'Xiaomi redmi note 3': no maintainers.
 INFO:__main__:Skip 'Xiaomi redmi note 4': no maintainers.
-INFO:__main__:Skip 'Xiaomi redmi note 5 pro': no maintainers.
 INFO:__main__:Skip 'Xiaomi redmi note 7 pro': no maintainers.
 INFO:__main__:Skip 'Yu yunique': no maintainers.
 INFO:__main__:Skip 'Yu yuphoria': no maintainers.
