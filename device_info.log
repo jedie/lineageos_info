@@ -1,6 +1,8 @@
-INFO:__main__:Generate csv on 2020-07-05 08:20:32.177100+0000
+INFO:__main__:Generate csv on 2020-11-11 11:12:55.967878+0000
+INFO:__main__:Skip 'Motorola moto g7 play': Only '2 GB' RAM
 INFO:__main__:Skip 'Huawei honor 5x': Only '2 GB' RAM
 INFO:__main__:Skip 'Motorola moto x 2014': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy a7 (2016)': Only '16 GB' Storage
 INFO:__main__:Skip 'Samsung galaxy j7 (2015)': Only '16 GB' Storage
 INFO:__main__:Skip 'Samsung galaxy s4 (gt-i9505/g, sgh-i337m, sgh-m919)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s4 (sch-i545)': Only '2 GB' RAM
@@ -12,6 +14,7 @@ INFO:__main__:Skip 'Motorola moto e 2015 lte': Only '1 GB' RAM
 INFO:__main__:Skip 'Motorola moto x play': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy a3 (2016)': Only '16 GB' Storage
 INFO:__main__:Skip 'Samsung galaxy a5 (2016)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 active (g870a/f)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 neo': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 plus': Only '2 GB' RAM
 INFO:__main__:Skip 'Fairphone fp2': Only '2 GB' RAM
@@ -25,12 +28,11 @@ INFO:__main__:Skip 'Motorola moto g3 turbo': Only '2 GB' RAM
 INFO:__main__:Skip 'Motorola moto g4 play': Only '16 GB' Storage
 INFO:__main__:Skip 'Oppo f1 (international)': Only '16 GB' Storage
 INFO:__main__:Skip 'Samsung galaxy grand 2 duos': Only '8 GB' Storage
-INFO:__main__:Skip 'Samsung galaxy s5 active': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 lte (g9006v/8v)': Only '2 GB' RAM
-INFO:__main__:Skip 'Samsung galaxy s5 lte (g900az/f/m/r4/r7/t/v/w8,s902l)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 lte (g900f/m/r4/r7/t/v/w8)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 lte (g900i/p)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 lte (g900k/l/s)': Only '2 GB' RAM
-INFO:__main__:Skip 'Samsung galaxy s5 lte (scl23)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 lte (sc-04f/scl23)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 lte duos (g9006w/8w)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 lte duos (g900fd/md)': Only '2 GB' RAM
 INFO:__main__:Skip 'Sony xperia z3 compact': Only '2 GB' RAM
