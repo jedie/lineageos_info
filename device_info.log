@@ -1,5 +1,6 @@
-INFO:__main__:Generate csv on 2020-11-11 11:12:55.967878+0000
+INFO:__main__:Generate csv on 2020-12-30 17:02:48.839256+0000
 INFO:__main__:Skip 'Motorola moto g7 play': Only '2 GB' RAM
+INFO:__main__:Skip 'Asus nexus 7 2013 (wi-fi, repartitioned)': Only '2 GB' RAM
 INFO:__main__:Skip 'Huawei honor 5x': Only '2 GB' RAM
 INFO:__main__:Skip 'Motorola moto x 2014': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy a7 (2016)': Only '16 GB' Storage
@@ -14,7 +15,7 @@ INFO:__main__:Skip 'Motorola moto e 2015 lte': Only '1 GB' RAM
 INFO:__main__:Skip 'Motorola moto x play': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy a3 (2016)': Only '16 GB' Storage
 INFO:__main__:Skip 'Samsung galaxy a5 (2016)': Only '2 GB' RAM
-INFO:__main__:Skip 'Samsung galaxy s5 active (g870a/f)': Only '2 GB' RAM
+INFO:__main__:Skip 'Samsung galaxy s5 active (g870f)': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 neo': Only '2 GB' RAM
 INFO:__main__:Skip 'Samsung galaxy s5 plus': Only '2 GB' RAM
 INFO:__main__:Skip 'Fairphone fp2': Only '2 GB' RAM

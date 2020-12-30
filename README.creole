@@ -29,14 +29,14 @@ A list of skipped device is: [[https://github.com/jedie/lineageos_info/blob/mast
 * [[https://wiki.lineageos.org/devices/griffin|Motorola moto z]] (5 maintainers)
 * [[https://wiki.lineageos.org/devices/mata|Essential essential ph-1]] (4 maintainers)
 * [[https://wiki.lineageos.org/devices/channel|Motorola moto g7 play]] (4 maintainers)
+* [[https://wiki.lineageos.org/devices/flox|Asus nexus 7 2013 (wi-fi, repartitioned)]] (3 maintainers)
 * [[https://wiki.lineageos.org/devices/bardock|Bq aquaris x]] (3 maintainers)
 * [[https://wiki.lineageos.org/devices/zangya|Bq aquaris x2]] (3 maintainers)
 * [[https://wiki.lineageos.org/devices/zangyapro|Bq aquaris x2 pro]] (3 maintainers)
 * [[https://wiki.lineageos.org/devices/blueline|Google pixel 3]] (3 maintainers)
-* [[https://wiki.lineageos.org/devices/crosshatch|Google pixel 3 xl]] (3 maintainers)
 
-Last LineageOS wiki page update: 2020-11-08
-Generated: 2020-11-11
+Last LineageOS wiki page update: 2020-12-27
+Generated: 2020-12-30
 
 == tryout
 
