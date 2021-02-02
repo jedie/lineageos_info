@@ -1,3 +1,12 @@
+Note: In the meanwhile, there is a more beautiful project:
+
+* https://bucherfa.github.io/lineageos-devices/
+* https://github.com/bucherfa/lineageos-devices
+
+
+----
+
+
 = LineageOS supported devices info
 
 Goal of this project: A good overview of all supported LineageOS devices.
